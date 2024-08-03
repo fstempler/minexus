@@ -1,0 +1,15 @@
+.navbar__Btn{
+    color: #373737;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar__dropdown{
+    border: 0;
+    border-radius: 0;
+    padding: 0 5px;
+}
+
+.navbar__line{
+    background-color: #263A97;
+    color: #263A97;
+}

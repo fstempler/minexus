@@ -1,0 +1,46 @@
+.heroNoImage__Container{
+    background-color: #fff;
+    background-image: url("../../assets/Hero Gradient Background.png");
+    background-size: cover;
+    margin: 0;
+    padding: 186px 349px 108px 349px;
+    gap: 10px;    
+}
+
+.heroKicker{
+    text-align: center;
+    font-size: 18px;
+    color: #58FAA8;
+    font-weight: 400;
+}
+.heroTitle{
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+}
+.heroSubtitle{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+.heroButton{
+    text-align: center;
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media screen and (max-width: 576px) {
+    .heroNoImage__Container{        
+        padding: 10px;        
+    }
+    .heroTitle{    
+        font-size: 30px;        
+    }
+    .heroSubtitle{
+        font-size: 15px;     
+    }
+}
+

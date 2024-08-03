@@ -1,0 +1,124 @@
+/* START TODAY SECTION */
+.startToday__Container{
+    background-color: #1C97B0;    
+    padding: 90px 182px 90px 182px;
+}
+.startToday__TextContainer{
+    padding: 0 80px 0 0;
+}
+
+.startToday__Title{
+    font-family: 'Creato Display', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+}
+.startToday__Text{
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    padding-right: 200px;
+}
+.startToday__Image{
+    margin-right: -182px;
+    margin-bottom: -90px;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .startToday__Container{
+        padding: 90px 50px 0 50px;
+    }
+    .startToday__Image{
+        margin-right: -60px;
+        /* margin-bottom: -90px;        */
+    }
+    
+    .startToday__Text{    
+        padding-right: 0;
+    }   
+}
+
+
+@media screen and (max-width: 576px) {
+    .startToday__Container{
+        padding: 90px 50px 90px 50px;
+    }
+    .startToday__Image{
+        margin-right: -60px;
+        width: 80%;
+    }
+    .startToday__TextContainer{
+        padding: 0;
+    }
+    .startToday__Text{    
+        padding-right: 0;
+    }   
+}
+
+/* FOOTER SECTION */
+
+.footer__Container{
+    background-color: #183A5E;
+    padding: 23px 44px 25px 44px;
+}
+
+.footer__Title{
+    font-family: 'Creato Display', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer__ContactInfo-Container{
+    padding: 35px 21px 35px 21px;
+    
+}
+.footer__ContactInfo-List, .footer__SiteLinks-List{
+    padding: 0;
+}
+.footer__ContactInfo{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;    
+    margin-top: 10px;
+}
+.footer__ContactInfo-Icon{
+    margin-right: 10px;
+}
+.footer__ContactInfo-Image{
+    width: 10%;
+}
+.footer__SiteLinks-Container{
+    padding: 35px 52px 48px 52px;
+    border-style: solid;
+    border-color: #009D5F;
+    border-width: 0 3px 0 3px;
+}
+.footer__SiteLinks{
+    text-decoration: none;    
+}
+.footer__SiteLinks-Line{   
+   color: #878787;
+}
+
+.footer__ContactForm-Container{
+    padding: 35px 21px 63px 21px;    
+}
+.footer__Copyright-Link{
+    color: #E9E9E9 !important;
+    font-size: 18px;
+    font-weight: 300;
+}
+.footer__Copyright-Separator{
+    border-left: 2px solid #fff;
+    margin: 0 15px;
+}
+
+@media (max-width: 576px) {
+    .footer__Copyright-Link{
+        text-align: center;
+    }   
+    
+}

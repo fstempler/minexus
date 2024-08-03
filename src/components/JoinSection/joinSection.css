@@ -1,0 +1,69 @@
+.joinSection__MainContainer{
+    padding: 47px 70px 47px 70px;
+}
+.joinSection__DataContainer{
+    background: linear-gradient(#22395B, #22525B);
+    border-radius: 10px;
+}
+.joinSection__TextContainer{
+    padding: 80px 100px;
+    gap: 20px;
+}
+.joinSection__Title{
+    font-family: 'Creato Display', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+}
+.joinSection__Text{
+    font-size: 16px;  
+    font-weight: 300;
+    color: #fff;
+    padding-right: 100px;
+}
+.joinSection__Input{
+    padding: 8px 11px 8px 11px;
+    border: solid 1px #D2D2D2;
+    border-radius: 3px;
+}
+.joinSection__Button{
+    background-color: #263A97;
+    color: #fff;
+    padding: 8px 11px 8px 11px;
+    border: solid 1px #263A97;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+@media (max-width: 1200px) {
+    .partnerSection__Image{
+        max-height: 30%;
+        width: 30%;
+        margin: 15px;
+    }    
+}
+
+@media (max-width: 576px) {
+    .joinSection__MainContainer{
+        padding: 0;
+        width: 90vw;
+    }
+    .joinSection__TextContainer{
+        padding: 0 0 0 15px;        
+        gap: 10px;        
+    }
+    .joinSection__Image{
+        width: 100%;
+        margin-top: -100px;
+    }
+    .joinSection__Text{        
+        padding-right: 0;
+    }
+    .joinSection__Input{
+        margin-bottom: 10px;
+    }   
+    
+}

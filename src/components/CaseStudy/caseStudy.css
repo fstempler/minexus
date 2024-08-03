@@ -1,0 +1,60 @@
+.caseStudy__MainContaidner{
+    padding: 25px 70px 25px 70px;
+}
+.caseStudy__ContentContainer{
+    padding: 0 70px 0 70px;
+}
+.caseStudy__Badge{
+    border-style: solid;
+    text-align: center;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: #263A97;
+    width: max-content;
+    padding: 2px 29px 2px 29px;
+    font-size: 14px;
+    color: #263A97;
+}
+.caseStudy__Logo{
+    max-width: 35%;
+}
+.caseStudy__Title{
+ font-size: 32px;   
+ font-weight: 700;
+ color: #000;
+ font-family: 'Creato Display', sans-serif;
+}
+
+.caseStudy__Text{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.caseStudy__SliderContainer{
+ padding-left: 50px;   
+}
+
+.carousel-control-prev, .carousel-control-next{
+    filter: invert(.5);
+    width: 2rem;
+    margin: -40px;
+}
+
+@media (max-width: 1200px) {
+    .caseStudy__ContentContainer{
+        padding: 0;        
+    }
+    .caseStudy__SliderContainer{
+        padding: 0;
+        margin-top: 20px;
+    }
+    .caseStudy__arrow{
+        transform: rotate(90deg);
+    }    
+}
+
+@media (max-width: 576px) {
+    .caseStudy__MainContaidner{
+        display: none;
+    }
+}

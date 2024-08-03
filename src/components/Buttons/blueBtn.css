@@ -1,0 +1,9 @@
+
+.blueBtn{
+    background-color: #263A97;
+    color: #fff;
+    padding: 14px 17px 14px 17px;
+    border-radius: 7px;
+    font-weight: 600;
+    width: max-content;
+}

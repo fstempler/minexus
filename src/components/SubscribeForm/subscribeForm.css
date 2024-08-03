@@ -1,0 +1,23 @@
+.subscribeForm__Input{
+    padding: 8px 11px 8px 11px;
+    border: solid 1px #D2D2D2;
+    border-radius: 3px;
+}
+.subscribeForm__Button{
+    background-color: #263A97;
+    color: #fff;
+    padding: 8px 11px 8px 11px;
+    border: solid 1px #263A97;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+@media (max-width: 576px) {    
+    .subscribeForm__Input{
+        margin-bottom: 10px;
+    }   
+    
+}

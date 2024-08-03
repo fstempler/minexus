@@ -1,0 +1,45 @@
+.featureCenter__Container{    
+    border-radius: 21px 21px 0 0;
+    padding: 25px 70px 68px 70px;
+}
+.featureCenter__Title{
+    border-style: solid;
+    text-align: center;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: #263A97;
+    width: max-content;
+    padding: 2px 29px 2px 29px;
+    font-size: 14px;
+    color: #263A97;
+}
+.featureCenter__Img{
+    max-width: 90%;
+}
+
+.featureCenter__Tag{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Creato Display', sans-serif;
+}
+.featureCenter__Subtitle{
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+}
+
+.featureCenterMobile__Img{
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .featureCenter__Img{
+        display: none;
+    }
+    .featureCenterMobile__Img{
+        display: flex;
+    }
+}

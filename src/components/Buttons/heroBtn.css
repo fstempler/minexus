@@ -1,0 +1,11 @@
+.heroBtn{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 14px 17px 14px 17px;
+    text-align: center;
+    line-height: 22px;
+    color: #263A97;
+    border-style: none;
+    border-radius: 7px;
+    background-color: #fff;
+}

@@ -1,0 +1,29 @@
+.featureImgLGreen__Container{
+    background: linear-gradient(#53E79C38, #53E79C00);
+    border-radius: 21px 21px 0 0;
+    padding: 48px 122px 48px 122px;
+}
+.featureImgLGreen__Title{
+    border-style: solid;
+    text-align: center;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: #263A97;
+    width: max-content;
+    padding: 2px 29px 2px 29px;
+    font-size: 14px;
+    color: #263A97;
+}
+.featureImgLGreen__Tag{
+    text-align: left;
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Creato Display', sans-serif;
+}
+.featureImgLGreen__Subtitle{
+    text-align: left;
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+}

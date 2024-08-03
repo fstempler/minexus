@@ -1,0 +1,61 @@
+.hero__NoImage-Container{
+    background-color: #fff;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 100px;    
+}
+
+.heroSectionTitle{
+    border-style: solid;
+    text-align: center;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: #fff;
+    width: min-content;
+    padding: 2px 5px 2px 5px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.heroSectionTag{
+    text-align: left;
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Creato Display', sans-serif;
+}
+.heroSectionSubtitle{
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+.heroSectionButton{
+    text-align: left;
+}
+.heroSectionImg{
+    max-width: 100%;
+    max-height: 100%;  
+    min-width: 100%;
+    min-height: 100%;  
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media screen and (max-width: 576px) {
+    .hero__NoImage-Container{        
+        padding: 10px;    
+    }
+    .heroSectionTitle{                 
+        font-size: 12px;  
+    }  
+    .heroSectionTag{
+        font-size: 48px;
+    }
+    .heroSectionSubtitle{
+        font-size: 15px;        
+    }
+}
+
