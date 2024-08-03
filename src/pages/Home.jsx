@@ -8,11 +8,13 @@ import AdvancedDocumentAutomation from '../assets/Advanced Document Automation.p
 import ERPIntegration from '../assets/ERP Integration.png' 
 import ERPIntegrationMobile from '../assets/ERPs Connected to Minexus_Mobile.png' 
 import AlikemLogo from '../assets/logosClients/allkemLogo.png'
+import CodinBack from '../assets/Card-bg-CODIN.png'
+import CataloguingBack from '../assets/Card-bg-Cataloguing.png'
+import ConsultingBack from '../assets/Card-bg-Consulting.png'
 //Buttons
 import HeroBtn from '../components/Buttons/heroBtn'
 import CardBtn from '../components/Buttons/cardBtn'
 import BlueBtn from '../components/Buttons/blueBtn'
-
 //Components
 import HeroNoImage from '../components/HeroNoImage/heroNoImage'
 import HeroCard from '../components/HomePageCards/homePageCard'
@@ -64,7 +66,7 @@ const Home = () => {
             <div className='row homeCards__Container'>
                 <div className='col'>
                     <HeroCard
-                    backgroundImage={CardBckg}
+                    backgroundImage={CodinBack}
                     categoryLogo={CodinLogo}
                     title={"CODIN"}
                     subtitle={"Industrial Development Community"}
@@ -78,7 +80,7 @@ const Home = () => {
                 </div>
                 <div className='col'>
                     <HeroCard
-                    backgroundImage={CardBckg}
+                    backgroundImage={CataloguingBack}
                     categoryLogo={CataloguingLogo}
                     title={"Cataloguing"}
                     subtitle={"Find out how to accurately  and efficiently sort your data. "}
@@ -92,7 +94,7 @@ const Home = () => {
                 </div>
                 <div className='col'>
                     <HeroCard
-                    backgroundImage={CardBckg}
+                    backgroundImage={ConsultingBack}
                     categoryLogo={ConsultingLogo}
                     title={"Consulting"}
                     subtitle={"With 10 years experienced experts in each subject."}
