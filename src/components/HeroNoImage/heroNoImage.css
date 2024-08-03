@@ -31,7 +31,12 @@
 
 
 
-/* Small devices (portrait tablets and large phones, 576px and up) */
+@media screen and (max-width: 1200px) {
+    .heroNoImage__Container{        
+        padding: 86px 149px 58px 149px;
+    }
+    
+}
 @media screen and (max-width: 576px) {
     .heroNoImage__Container{        
         padding: 10px;        

@@ -1,6 +1,6 @@
 import './featureImgR.css'
 
-const FeatureImgR = ({ ImgLink, alt, Title, Tag, Subtitle, link, Button }) => {
+const FeatureImgR = ({ ImgLink, alt, Title, Badge, Subtitle, link, Button }) => {
     return (
         
         <section className="container-fluid d-flex flex-column justify-content-center featureImgR__Container p-5 align-items-center">
@@ -8,9 +8,9 @@ const FeatureImgR = ({ ImgLink, alt, Title, Tag, Subtitle, link, Button }) => {
                 <div className='row'>
                     
                     
-                    <div className='col-12 col-lg-6 p-3 order-1'>
-                        <h3 className='featureImgR__Title'>{Title}</h3>
-                        <h1 className='featureImgR__Tag'>{Tag}</h1>
+                    <div className='col-12 col-lg-6 p-3 order-1 d-flex flex-column gap-3'>
+                        <h3 className='featureImgR__Badge'>{Badge}</h3>
+                        <h1 className='featureImgR__Title'>{Title}</h1>
                         <h3 className='featureImgR__Subtitle'>{Subtitle}</h3>
                         <div className='featureImgR__Button'><a href={link}>{Button}</a></div>
                     </div>

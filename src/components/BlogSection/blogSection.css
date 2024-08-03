@@ -25,6 +25,15 @@
     padding: 0 400px;
 }
 
+@media screen and (max-width: 1200px) {
+    .blogSection__Title{        
+        padding: 0 100px;
+    }
+    .blogSection__Text{        
+        padding: 0 100px;
+    }
+    
+}
 @media (max-width: 576px) {
     .blogSection__Title{        
         padding: 0;

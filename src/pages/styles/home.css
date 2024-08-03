@@ -1,0 +1,17 @@
+.homeCards__Container{
+    margin-top: -30px;
+    padding: 0 18px 25px 18px;
+}
+.home__FeaturesContainer{
+    padding: 25px 70px 25px 70px;
+}
+
+@media (max-width: 576px) {
+    .homeCards__Container{
+        margin-top: 20px;
+        padding: 0;
+    }   
+    .home__FeaturesContainer{
+        padding: 0;
+    }
+}

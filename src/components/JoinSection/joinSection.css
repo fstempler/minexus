@@ -39,10 +39,8 @@
 }
 
 @media (max-width: 1200px) {
-    .partnerSection__Image{
-        max-height: 30%;
-        width: 30%;
-        margin: 15px;
+    .joinSection__Image{        
+        margin: -150px;
     }    
 }
 

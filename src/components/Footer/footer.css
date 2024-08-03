@@ -4,7 +4,7 @@
     padding: 90px 182px 90px 182px;
 }
 .startToday__TextContainer{
-    padding: 0 80px 0 0;
+    padding: 0 80px 0 180px;
 }
 
 .startToday__Title{
@@ -16,8 +16,7 @@
 .startToday__Text{
     font-size: 18px;
     font-weight: 300;
-    color: #fff;
-    padding-right: 200px;
+    color: #fff;    
 }
 .startToday__Image{
     margin-right: -182px;
@@ -26,13 +25,13 @@
     height: auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .startToday__Container{
-        padding: 90px 50px 0 50px;
+        padding: 90px 50px 90px 50px;
     }
     .startToday__Image{
         margin-right: -60px;
-        /* margin-bottom: -90px;        */
+        margin-top: 90px;
     }
     
     .startToday__Text{    

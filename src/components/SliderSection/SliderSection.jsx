@@ -28,13 +28,13 @@ import allkem from '../../assets/bottomSlider/allkemLogo.png'
 import techint from '../../assets/bottomSlider/techintLogo.png'
 
 
-const SliderSection = ({ Title, Subtitle, Text }) => {
+const SliderSection = ({ Badge, Title, Text }) => {
     return (
         <div className="container-fluid sliderSection__Container">
             <div className='container'>
                 <div className='row d-flex justify-content-center row-gap-3'>
+                    <h3 className='Badge'>{Badge}</h3>
                     <h3 className='sliderSection__Title'>{Title}</h3>
-                    <h3 className='sliderSection__Subtitle'>{Subtitle}</h3>
                     <p className='sliderSection__Text'>{Text}</p>
                 </div>                
             <section className="slide-option">        

@@ -1,9 +1,9 @@
 import "./blueBtn.css"
 
-const blueBtn = ({ text, icon }) => {
+const blueBtn = ({ text }) => {
     return(
         <div className="blueBtn">
-            <p>{text} <span>{icon}</span></p>
+            <p>{text} <span><i className="bi bi-arrow-right icon"/></span></p>
         </div>
     )
 }
