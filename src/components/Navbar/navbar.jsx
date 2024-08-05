@@ -2,7 +2,6 @@ import logo from '../../assets/Logo/Minexus Logo.png'
 //style
 import "./navbar.css"
 //components
-import BlueBtn from '../Buttons/blueBtn'
 import ContactBtn from '../Buttons/contactBtn'
 //<>
 const navbar = () =>{
@@ -14,7 +13,7 @@ const navbar = () =>{
                         <span className="navbar-toggler-icon"></span>
                     </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle navbar__Btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
@@ -37,7 +36,7 @@ const navbar = () =>{
                             <a className="nav-link" href="#"><ContactBtn icon={ <i className="bi bi-headset"></i> } text={ "Contact Sales" } /></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#"><BlueBtn text={ "CODIN Access" } icon={ <i className="bi bi-arrow-right"></i> }/></a>
+                            <a className="nav-link navbar__BlueBtn" href="#">CODIN Access <span><i className="bi bi-arrow-right icon navbar__Arrow" /></span></a>
                         </li>
                         
                         

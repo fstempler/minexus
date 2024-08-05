@@ -6,4 +6,10 @@
     padding: 0 14px 0 14px;
     border-radius: 3px;
     font-weight: 600;
+    background-color: #fff;
+    transition: background-color 0.5s;
+}
+.contacBtn:hover{
+    background-color: #263A97 !important;
+    color: #fff !important;
 }
