@@ -38,16 +38,16 @@
     border-radius: 3px;
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
     .joinSection__Image{        
         margin: -150px;
     }    
-}
+} */
 
 @media (max-width: 576px) {
     .joinSection__MainContainer{
         padding: 0;
-        width: 90vw;
+        width: 80vw;
     }
     .joinSection__TextContainer{
         padding: 0 0 0 15px;        
@@ -55,7 +55,7 @@
     }
     .joinSection__Image{
         width: 100%;
-        margin-top: -100px;
+        margin-top: -100px;        
     }
     .joinSection__Text{        
         padding-right: 0;

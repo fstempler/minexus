@@ -1,0 +1,32 @@
+.aboutUs__Mission-Container{
+    padding: 45px 100px 45px 100px;
+}
+.aboutUs__Title{
+    font-family: 'Creato Display', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    color: rgba(38, 58, 151, 1);    
+}
+.aboutUs__Text{
+   font-size: 18px; 
+   font-weight: 300;
+}
+.aboutUs__Vision-MainContainer{    
+    background: linear-gradient(rgba(60, 103, 255, 0.08), rgba(60, 103, 255, 0));
+}
+.aboutUs__Vision-Container{
+    padding: 45px 100px 45px 100px;    
+}
+.aboutUs__Values-Container{
+    padding: 45px 100px 45px 100px;
+}
+.values__Title{
+    font-family: 'Creato Display', sans-serif;
+    font-weight: 700;
+    font-size: 32px;    
+}
+.aboutUs__Quality-Container{
+    padding: 45px 100px 45px 100px;
+}
+

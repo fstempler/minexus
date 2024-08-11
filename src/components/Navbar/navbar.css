@@ -8,14 +8,19 @@
     border-radius: 0;
     padding: 0 5px;
 }
+.navbar__LgBtn{
+    color: #263A97;
+    font-weight: 600;
+}
 .navbar__BlueBtn{
     background-color: #263A97;
     color: #fff;
-    padding: 0 14px 0 14px;
+    padding: 3px 14px 3px 14px;
     border-radius: 3px;
     font-weight: 600;
     width: max-content;
-    gap: 10px;    
+    gap: 10px;
+    border: solid 1px #263a97;    
 }
 
 .navbar__line{

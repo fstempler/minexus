@@ -2,7 +2,6 @@
 //Style
 import './styles/home.css'
 //Images
-import CardBckg from '../assets/Hero Gradient Background.png'
 import SupplyChain from '../assets/Supply Chain Management.png'
 import AdvancedDocumentAutomation from '../assets/Advanced Document Automation.png'
 import ERPIntegration from '../assets/ERP Integration.png' 
@@ -34,11 +33,13 @@ import BlogSection from '../components/BlogSection/BlogSection'
 const carouselItems = [
     [
         <CaseStudyCard
+            key="solition1"
             badge="SOLUTION"
             title="Material Cataloging and Debugging Workshop"
             text="Minexus conducted an intensive workshop with the client to review and improve the cataloging procedure. A new form and unification of cataloging users was proposed. In addition, new cataloging standards, standardization of descriptions, masters of units of measure, manufacturers and standardized abbreviations were delivered."
         />,
         <CaseStudyCard
+            key="standarization1"
             badge="STANDARDIZATION"
             title="16,500 items"
             text="Descriptions, units of measure, item groups and classes were standardized and translated into English."
@@ -46,6 +47,7 @@ const carouselItems = [
     ],
     [
         <CaseStudyCard
+            key="solution2"
             badge="SOLUTION"
             title="Material Cataloging and Debugging Workshop"
             text="Minexus conducted an intensive workshop with the client to review and improve the cataloging procedure. A new form and unification of cataloging users was proposed. In addition, new cataloging standards, standardization of descriptions, masters of units of measure, manufacturers and standardized abbreviations were delivered."

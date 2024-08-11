@@ -1,24 +1,26 @@
-.hero__NoImage-Container{
+.hero__WithImage-Container{
     background-color: #fff;    
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    
     margin: 0;
-    padding: 100px;    
+    padding: 100px;       
 }
-
-.heroSectionTitle{
+.heroWithImage__DataContainer{
+    margin-bottom: 200px;
+}
+.heroSectionBadge{
     border-style: solid;
     text-align: center;
     border-radius: 50px;
     border-width: 1px;
     border-color: #fff;
     width: min-content;
-    padding: 2px 5px 2px 5px;
+    padding: 2px 15px 2px 15px;
     font-size: 14px;
     color: #fff;
 }
 
-.heroSectionTag{
+.heroSectionTitle{
     text-align: left;
     font-size: 65px;
     font-weight: 700;
@@ -37,16 +39,16 @@
 .heroSectionImg{
     max-width: 100%;
     max-height: 100%;  
-    min-width: 100%;
-    min-height: 100%;  
+    min-width: 80%;
+    min-height: 80%;  
 }
 
 
 
 /* Small devices (portrait tablets and large phones, 576px and up) */
 @media screen and (max-width: 576px) {
-    .hero__NoImage-Container{        
-        padding: 10px;    
+    .hero__WithImage-Container{        
+        padding: 30px;    
     }
     .heroSectionTitle{                 
         font-size: 12px;  
@@ -56,6 +58,9 @@
     }
     .heroSectionSubtitle{
         font-size: 15px;        
+    }
+    .heroWithImage__DataContainer{
+        margin-bottom: 50px;
     }
 }
 

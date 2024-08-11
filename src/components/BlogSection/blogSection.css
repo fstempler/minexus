@@ -35,6 +35,9 @@
     
 }
 @media (max-width: 576px) {
+    .blogSection__TextContainer{
+        padding: 20px 40px;
+    }
     .blogSection__Title{        
         padding: 0;
     }

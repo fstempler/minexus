@@ -1,31 +1,48 @@
-//Components
-import Navbar from './components/Navbar/navbar'
-import Footer from './components/Footer/Footer'
-//Pages
-import Home from './pages/Home'
-//Images
-import Background1 from './assets/Gradient Background.png'
-import HeroImg from './assets/CODIN img.png'
-import SupplyChainManagement from './assets/Supply Chain Management.png'
-import DataOptimization from './assets/Data Optimization.png'
-import AdvancedDocumentAutomation from './assets/Advanced Document Automation.png'
-import ERPintegration from './assets/ERP Integration.png'
-import ERPintegrationMobile from './assets/ERPs Connected to Minexus_Mobile.png'
-//styles
-import './App.css'
+// Components
+import Navbar from './components/Navbar/navbar';
+import Footer from './components/Footer/Footer';
+import { createBrowserRouter, createRoutesFromElements, Outlet, RouterProvider, Route } from 'react-router-dom';
+// Pages
+import Home from './pages/Home';
+import Codin from './pages/Codin';
+import Cataloging from './pages/Cataloging';
+import Consulting from './pages/Consulting';
+import AboutUs from './pages/AboutUs';
+// styles
+import './App.css';
+
+const Root = () => {
+  return(
+    <>
+    <Navbar />
+    <Outlet />
+    <Footer />
+    </>
+  )
+}
+
+const routes = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Root />}>
+      <Route index element={<Home />} />
+      <Route path="/codin" element={<Codin />} />
+      <Route path="/cataloging" element={<Cataloging />} />
+      <Route path="/consulting" element={<Consulting />} />
+      <Route path="/aboutus" element={<AboutUs />} />
+    </Route>
+  )  
+);
 
 function App() {
   
 
   return (
-    <>
-    <Navbar />    
-    <Home />
-    <Footer />
-
-    </>
-    
-  )
+    <div>
+      
+      <RouterProvider router={routes} />
+      
+    </div>
+  );
 }
 
-export default App
+export default App;

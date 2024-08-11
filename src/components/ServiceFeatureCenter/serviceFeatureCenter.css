@@ -1,8 +1,7 @@
-.featureImgR__Container{    
-    border-radius: 21px 21px 0 0;
-    padding: 48px 94px 48px 94px;
+.serviceFeatureCenter__Container{
+    padding: 47px 70px 47px 70px;
 }
-.featureImgR__Badge{
+.serviceFeature__Badge{
     border-style: solid;
     text-align: center;
     border-radius: 50px;
@@ -13,22 +12,23 @@
     font-size: 14px;
     color: #263A97;
 }
-.featureImgR__Title{
-    text-align: left;
+.serviceFeature__Img{
+    max-width: 90%;
+}
+
+.serviceFeature__Title{
+    text-align: center;
     font-size: 42px;
     font-weight: 700;
     color: #000;
     font-family: 'Creato Display', sans-serif;
+    line-height: 40px;
+    margin-top: 30px;
 }
-.featureImgR__Subtitle{
-    text-align: left;
+.serviceFeature__Subtitle{
+    text-align: center;
     font-size: 18px;
     color: #000;
     font-weight: 400;
+    line-height: 22px;
 }
-
-/* @media (max-width: 576px) {
-    .featureImgR__Container{        
-        padding: 0;
-    }
-} */

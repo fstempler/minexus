@@ -32,3 +32,11 @@
     height: 3em; 
     line-height: 1.5em;
 }
+
+@media (max-width: 576px) {
+    .homePageCard__Container{
+        width: 350px;
+        height: 402px;
+        margin-top: 20px;
+    }
+}

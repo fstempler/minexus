@@ -1,0 +1,11 @@
+.cataloging__ServiceCards-Container{
+    padding: 25px 70px 87px 70px;
+    gap: 30px;
+}
+
+@media (max-width: 576px) {
+    .cataloging__ServiceCards-Container{
+        padding: 10px;
+        gap: 10px;
+    }    
+}
