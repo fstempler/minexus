@@ -7,7 +7,7 @@
     border-style: solid;
     text-align: center;
     border-radius: 50px;
-    border-width: 1px;
+    border-width: 2px;
     border-color: #263A97;
     width: max-content;
     padding: 2px 29px 2px 29px;
@@ -21,9 +21,11 @@
     color: #000;
     font-weight: 700;
     font-family: 'Creato Display', sans-serif;
+	margin-top: 20px;	
 }
 .sliderSection__Text{
     text-align: center;
+	margin-bottom: 20px;
 }
 
 

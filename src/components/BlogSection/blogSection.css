@@ -2,12 +2,13 @@
     border-style: solid;
     text-align: center;
     border-radius: 50px;
-    border-width: 1px;
+    border-width: 2px;
     border-color: #263A97;
     width: max-content;
     padding: 2px 29px 2px 29px;
     font-size: 14px;
     color: #263A97;
+    margin-bottom: 20px;
 }
 .blogSection__Title{
     text-align: center;
@@ -16,6 +17,7 @@
     color: #000;
     font-family: 'Creato Display', sans-serif;
     padding: 0 400px;
+    line-height: 35px;
 }
 .blogSection__Text{
     text-align: center;

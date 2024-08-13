@@ -1,14 +1,14 @@
-.caseStudy__MainContaidner{
+/* .caseStudy__MainContaidner{
     padding: 25px 70px 25px 70px;
-}
+} */
 .caseStudy__ContentContainer{
-    padding: 0 70px 0 70px;
+    padding: 0 40px 0 40px;
 }
 .caseStudy__Badge{
     border-style: solid;
     text-align: center;
     border-radius: 50px;
-    border-width: 1px;
+    border-width: 2px;
     border-color: #263A97;
     width: max-content;
     padding: 2px 29px 2px 29px;

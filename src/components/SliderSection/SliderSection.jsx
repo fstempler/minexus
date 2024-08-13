@@ -32,7 +32,7 @@ const SliderSection = ({ Badge, Title, Text }) => {
     return (
         <div className="container-fluid sliderSection__Container">
             <div className='container'>
-                <div className='row d-flex justify-content-center row-gap-3'>
+                <div className='row d-flex justify-content-center'>
                     <h3 className='sliderSection__Badge'>{Badge}</h3>
                     <h3 className='sliderSection__Title'>{Title}</h3>
                     <p className='sliderSection__Text'>{Text}</p>

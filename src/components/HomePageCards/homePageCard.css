@@ -7,6 +7,7 @@
 .titleContainer{
     border-radius: 10px 10px 0 0;
     background-color: #fff;
+    padding: 20px 20px;    
 }
 .dataContainer{
     border-style: solid;
@@ -20,6 +21,7 @@
     font-weight: 700;
     font-family: 'Creato Display', sans-serif;
     color: #fff;
+    margin-top: 20px;
 }
 .dataContainer__Subtitle{
     font-size: 18px;

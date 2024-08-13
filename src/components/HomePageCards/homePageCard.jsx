@@ -9,7 +9,7 @@ const homePageCard = ({ backgroundImage, categoryLogo, title, subtitle, textData
     }
     return(
         <div className="container d-flex flex-column homePageCard__Container">
-            <div className="titleContainer p-3" style={backgroundImg}>
+            <div className="titleContainer" style={backgroundImg}>
                 <img className="categoryLogo" src={categoryLogo}/>
                 <h2 className="dataContainer__Title">{title}</h2>    
             </div>

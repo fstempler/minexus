@@ -14,9 +14,9 @@ const CaseStudy = ({ badge, imgLogo, alt, title, text, carouselItems }) => {
                             <h2 className='caseStudy__Title'>{title}</h2>
                             <p className='caseStudy__Text'>{text}</p>
                         </div>
-                        <div className='col-12 col-xl-4 d-flex align-items-center p-5'>
+                        {/* <div className='col-12 col-xl-4 d-flex align-items-center p-5'>
                             <img className='caseStudy__arrow' src={arrow} alt='Arrow'/>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className='col-sm-12 col-xl-8 caseStudy__SliderContainer'>

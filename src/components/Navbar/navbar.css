@@ -1,7 +1,11 @@
+.navbar__Container{
+    background-color: #fff;
+}
 .navbar__Btn{
     color: #373737;
     font-size: 18px;
     font-weight: 600;
+    padding: 10px 0;
 }
 .navbar__dropdown{
     border: 0;

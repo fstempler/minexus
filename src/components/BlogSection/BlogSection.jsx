@@ -7,7 +7,7 @@ const BlogSection = () => {
     return (
         <div className='container'>
             <div className='row'>
-                <div className='row d-flex justify-content-center gap-3 blogSection__TextContainer'>
+                <div className='row d-flex justify-content-center blogSection__TextContainer'>
                     <h3 className='blogSection__Badge'>RESOURCES</h3>
                     <h2 className='blogSection__Title'>Get informed and shape your strategy</h2>
                     <p className='blogSection__Text'>Stay up to date with Minexus news that will help you stand out in your market and achieve your goals.</p>

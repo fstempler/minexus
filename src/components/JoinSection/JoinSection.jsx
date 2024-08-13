@@ -8,8 +8,8 @@ const JoinSection = () => {
             <div className='row joinSection__DataContainer'>
                 <div className='col-12 col-md-8 d-flex align-items-left flex-column justify-content-center joinSection__TextContainer order-1'>
                     <h2 className='joinSection__Title'>Join Our community</h2>
-                    <p className='joinSection__Text'>Connect with a community of experts and expand your industry network.</p>
-                    <p className='joinSection__Text'>Get tips to improve your inventory and supply chain management.</p>
+                    <p className='joinSection__Text'>Connect with a community of experts and expand your industry network.<br></br>Get tips to improve your inventory and supply chain management.</p>
+                    
                     <SubscribeForm />
                 </div>
                 <div className='col-12 col-md-4 order-sm-1 d-flex align-items-center'>                    
