@@ -13,6 +13,7 @@ const AboutUs = () => {
         Subtitle={"MINEXUS commits to ethics, trust, and continuous improvement for client and partner empowerment."}
         Button={""}
         />
+        <div className='aboutUs__Main-Container'>
         <div className='container aboutUs__Mission-Container'>
             <div className='row'>
                 <div className='col d-flex justify-content-center align-items-center'>
@@ -94,7 +95,7 @@ const AboutUs = () => {
             </div>       
         
         </div>
-
+        </div>
 
         </>
     )

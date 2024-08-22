@@ -5,8 +5,9 @@
     border-width: 2px;
     border-color: #263A97;
     width: max-content;
-    padding: 2px 29px 2px 29px;
+    padding: 5px 29px 5px 29px;
     font-size: 14px;
+    font-weight: 600;
     color: #263A97;
     margin-bottom: 20px;
 }

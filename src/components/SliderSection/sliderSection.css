@@ -10,8 +10,9 @@
     border-width: 2px;
     border-color: #263A97;
     width: max-content;
-    padding: 2px 29px 2px 29px;
+    padding: 5px 29px 5px 29px;
     font-size: 14px;
+	font-weight: 600;
     color: #263A97;
 }
 
@@ -22,6 +23,7 @@
     font-weight: 700;
     font-family: 'Creato Display', sans-serif;
 	margin-top: 20px;	
+	line-height: 40px;
 }
 .sliderSection__Text{
     text-align: center;
@@ -41,7 +43,7 @@ section {
 	@media (max-width:992px) { padding:0 20px 0 20px; }
 }
 section.slide-option {
-	margin:20px 0 -40px 0;
+	margin:20px 0 -80px 0;
 	.no-marg { margin:0 0 0 0; }
 }
 

@@ -2,6 +2,7 @@ import './footer.css'
 //Components
 import BlueBtn from '../Buttons/blueBtn';
 import SubscribeForm from '../SubscribeForm/SubscribeForm';
+import { useEffect } from 'react';
 //Images
 import FooterImg from '../../assets/FooterImg.png'
 import telIcon from '../../assets/telIcon.png'
@@ -10,7 +11,20 @@ import xIcon from '../../assets/xIcon.png'
 import linkedInIcon from '../../assets/linkedInIcon.png'
 import aaip from '../../assets/aaip.png'
 
-const Footer = () => {
+const Footer = () => {    
+    
+    useEffect(() => {
+        if (!document.getElementById('bitrix-script')) {
+            const script = document.createElement('script');
+            script.id = 'bitrix-script';
+            script.src = 'https://cdn.bitrix24.es/b12381291/crm/form/loader_2.js';
+            script.async = true;
+            script.setAttribute('data-b24-form', 'inline/2/bcc3ie');
+            script.setAttribute('data-skip-moving', 'true');
+            document.getElementById('bitrix-form-container').appendChild(script);
+        }
+    }, []);
+
     return (
         <div className='footer__MainContainer'>
             {/* START TODAY SECTION */}
@@ -60,6 +74,8 @@ const Footer = () => {
                 </div>
                 <div className='col  col-lg-4 footer__ContactForm-Container'>
                     <h2 className='footer__Title'>Contact Us</h2>
+                    <div id="bitrix-form-container"></div>
+                    
                 </div>
                 <div className='row mt-5'>
                     <ul className='d-flex justify-content-center nav flex-column flex-sm-row align-items-center'>

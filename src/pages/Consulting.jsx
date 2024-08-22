@@ -10,7 +10,7 @@ import ServiceCard from '../components/ServiceCards/ServiceCard'
 import JoinSection from '../components/JoinSection/JoinSection'
 //Images
 import Consulting from '../assets/Consulting.png'
-import Background from '../assets/Gradient Background.png'
+import Background from '../assets/Consulting - Gradient Background.png'
 import Procurment from '../assets/Procurement Outsurcing.png'
 import SAPimg from '../assets/ServiceCardsImg/Consulting/SAP.png'
 import Purchase from '../assets/ServiceCardsImg/Consulting/Purchase.png'
@@ -43,9 +43,8 @@ const ConsultingPage = () => {
                 alt={"Procurement Outsourcing"}
                 background={"linear-gradient(rgba(83, 231, 156, 0.08), rgba(83, 231, 156, 0))"}
                 />
-            </div>
 
-            <ServiceFeatureCenter
+<ServiceFeatureCenter
                 Badge={"CONSULTING"}
                 Title={"Our specialized services"}
                 Subtitle={"Minexus offers a wide range of consulting services designed to boost the efficiency and operational effectiveness of your company's supply chain:"}
@@ -97,6 +96,10 @@ const ConsultingPage = () => {
                     </div>
                 </div>
                 <JoinSection />
+
+            </div>
+
+            
         </>
     )
 }

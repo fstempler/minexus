@@ -13,7 +13,7 @@ const homePageCard = ({ backgroundImage, categoryLogo, title, subtitle, textData
                 <img className="categoryLogo" src={categoryLogo}/>
                 <h2 className="dataContainer__Title">{title}</h2>    
             </div>
-            <div className="dataContainer p-3">
+            <div className="dataContainer">
                 <h3 className="dataContainer__Subtitle">{subtitle}</h3>
                 <hr className="dataContainer__Line"></hr>
                 <ul className="p-0">

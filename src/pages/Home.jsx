@@ -51,6 +51,12 @@ const carouselItems = [
             badge="SOLUTION"
             title="Material Cataloging and Debugging Workshop"
             text="Minexus conducted an intensive workshop with the client to review and improve the cataloging procedure. A new form and unification of cataloging users was proposed. In addition, new cataloging standards, standardization of descriptions, masters of units of measure, manufacturers and standardized abbreviations were delivered."
+        />,
+        <CaseStudyCard
+            key=""
+            badge=""
+            title=""
+            text=""
         />
     ]
 ];

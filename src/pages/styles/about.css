@@ -1,6 +1,10 @@
 .aboutUs__Mission-Container{
     padding: 45px 100px 45px 100px;
 }
+.aboutUs__Main-Container{
+    padding: 50px 300px;
+}
+
 .aboutUs__Title{
     font-family: 'Creato Display', sans-serif;
     font-weight: 700;

@@ -9,12 +9,13 @@
     border-width: 2px;
     border-color: #263A97;
     width: max-content;
-    padding: 2px 29px 2px 29px;
+    padding: 5px 29px 5px 29px;
     font-size: 14px;
+    font-weight: 600;
     color: #263A97;
 }
 .featureCenter__Img{
-    max-width: 90%;
+    max-width: 70%;
 }
 
 .featureCenter__Title{
@@ -23,12 +24,16 @@
     font-weight: 700;
     color: #000;
     font-family: 'Creato Display', sans-serif;
+    padding: 0 350px;
+    margin-top: 18px;
+    line-height: 40px;
 }
 .featureCenter__Subtitle{
     text-align: center;
     font-size: 18px;
     color: #000;
     font-weight: 400;
+    padding: 0 350px;
 }
 
 .featureCenterMobile__Img{
@@ -41,5 +46,8 @@
     }
     .featureCenterMobile__Img{
         display: flex;
+    }
+    .featureCenter__Title{
+        padding: 0;
     }
 }

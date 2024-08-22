@@ -7,21 +7,33 @@
 .titleContainer{
     border-radius: 10px 10px 0 0;
     background-color: #fff;
-    padding: 20px 20px;    
+    padding: 30px 40px;   
+    background-position: center; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
+.categoryLogo{
+    width: 25%;
+    margin-bottom: 15px;
+}
+
 .dataContainer{
     border-style: solid;
     border-width: 0 7px 7px 7px;
     border-color: #1C97B00D;
     border-radius: 0 0 10px 10px;
     background-color: #fff;
+    padding: 10px 30px;
 }
 .dataContainer__Title{
     font-size: 42px;
     font-weight: 700;
     font-family: 'Creato Display', sans-serif;
-    color: #fff;
-    margin-top: 20px;
+    color: #fff;  
+    margin: 0;  
+    padding: 0;
 }
 .dataContainer__Subtitle{
     font-size: 18px;

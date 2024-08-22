@@ -9,8 +9,9 @@
     border-width: 1px;
     border-color: #263A97;
     width: max-content;
-    padding: 2px 29px 2px 29px;
+    padding: 5px 29px 5px 29px;
     font-size: 14px;
+    font-weight: 600;
     color: #263A97;
 }
 .featureImgL__Title{
@@ -19,6 +20,7 @@
     font-weight: 700;
     color: #000;
     font-family: 'Creato Display', sans-serif;
+    line-height: 40px;
 }
 .featureImgL__Subtitle{
     text-align: left;

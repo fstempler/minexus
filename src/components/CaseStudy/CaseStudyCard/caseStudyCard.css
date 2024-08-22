@@ -5,14 +5,11 @@
  padding: 10px 26px;
 }
 .caseStudyCard__Badge{
-    border-style: solid;
-    text-align: center;
-    border-radius: 50px;
-    border-width: 2px;
-    border-color: #263A97;
+    text-align: center;    
     width: max-content;
-    padding: 2px 29px 2px 29px;
+    padding: 5px 29px 5px 0;
     font-size: 14px;
+    font-weight: 600;
     color: #263A97;
 }
 .caseStudyCard__Title{

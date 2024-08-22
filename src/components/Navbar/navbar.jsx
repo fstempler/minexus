@@ -3,6 +3,7 @@ import logo from '../../assets/Logo/Minexus Logo.png'
 import "./navbar.css"
 //components
 import ContactBtn from '../Buttons/contactBtn'
+import BlueBtnNav from '../Buttons/blueBtnNav'
 import { Link } from 'react-router-dom'
 //<>
 const navbar = () =>{
@@ -36,11 +37,12 @@ const navbar = () =>{
                         <li className="nav-item">
                             <Link className="nav-link navbar__LgBtn" to="/">ES EN</Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item btn__Container">
                             <Link className="nav-link" to="/"><ContactBtn icon={ <i className="bi bi-headset"></i> } text={ "Contact Sales" } /></Link>
+                            <Link className="nav-link" to="/"><BlueBtnNav text={ "CODIN Access" } /></Link>                            
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link navbar__BlueBtn" to="/">CODIN Access <span><i className="bi bi-arrow-right icon navbar__Arrow" /></span></Link>
+                            
                         </li>
                         
                         

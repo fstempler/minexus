@@ -15,7 +15,7 @@ import SliderSection from '../components/SliderSection/SliderSection'
 import JoinSection from '../components/JoinSection/JoinSection'
 //images
 import cataloging from '../assets/Cataloguing.png'
-import backgroundGreen from '../assets/Hero Gradient Background.png'
+import backgroundGreen from '../assets/Cataloguing - Gradient Background.png'
 import CatalogingModel from '../assets/Cataloguing model.png'
 import Workshop from '../assets/ServiceCardsImg/Cataloging/Workshop.png'
 import Debugging from '../assets/ServiceCardsImg/Cataloging/Debugging.png'
@@ -115,7 +115,7 @@ const Cataloging = () => {
         alt={"Cataloging Image"}
         backgroundImage={backgroundGreen}
         />
-        <div className='codin__FeaturesContainer d-flex flex-column gap-5'>
+        <div className='cataloging__FeaturesContainer d-flex flex-column gap-5'>
             <FeatureImgR
             Badge={"ADAPTED TO EVERY NEED"}
             Title={"Cataloging Model and Standard"}

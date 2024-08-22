@@ -1,8 +1,10 @@
 .cataloging__ServiceCards-Container{
-    padding: 25px 70px 87px 70px;
-    gap: 30px;
+    padding: 25px 5px 87px 5px;
+    /* gap: 10px; */
 }
-
+.cataloging__FeaturesContainer{
+    padding: 25px 300px 87px 300px;
+}
 @media (max-width: 576px) {
     .cataloging__ServiceCards-Container{
         padding: 10px;
