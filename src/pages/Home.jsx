@@ -51,13 +51,7 @@ const carouselItems = [
             badge="SOLUTION"
             title="Material Cataloging and Debugging Workshop"
             text="Minexus conducted an intensive workshop with the client to review and improve the cataloging procedure. A new form and unification of cataloging users was proposed. In addition, new cataloging standards, standardization of descriptions, masters of units of measure, manufacturers and standardized abbreviations were delivered."
-        />,
-        <CaseStudyCard
-            key=""
-            badge=""
-            title=""
-            text=""
-        />
+        />        
     ]
 ];
 
@@ -156,6 +150,7 @@ const Home = () => {
             title={"How Aliken Transformed Data Handling"}
             text={"Allkem was facing significant challenges in cataloging and purging materials, which affected operational efficiency and data accuracy."}
             carouselItems={carouselItems}
+            id={"1"}
             />
             <PartnerSection />
             <JoinSection />

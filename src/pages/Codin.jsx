@@ -17,7 +17,7 @@ import HeroBackground from '../assets/Gradient Background.png'
 import VirtualCommunity from '../assets/Virtual Community.png'
 import SupplyChain from '../assets/Supply Chain Management.png'
 import AssuredAccuracy from '../assets/Asured Accuracy.png'
-import SupplierMapping from '../assets/ServiceCardsImg/Codin/SupplierMapping2.png'
+import SupplierMapping from '../assets/ServiceCardsImg/Codin/SupplierMapping.png'
 import PerformanceEvaluation from '../assets/ServiceCardsImg/Codin/PerformanceEvaluation.png'
 import ContractorsControl from '../assets/ServiceCardsImg/Codin/ContractorsControl.png'
 import DataQuality from '../assets/ServiceCardsImg/Codin/DataQuality.png'
@@ -77,6 +77,7 @@ const Codin = () => {
                         img={SupplierMapping}
                         title={"Supplier Mapping"}
                         text={"Gain a clear view of your supply chain and optimize supplier selection"}
+                        background="rgba(28, 151, 176, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center codin__ServiceCards-MiddleColumn'>
@@ -84,6 +85,7 @@ const Codin = () => {
                         img={PerformanceEvaluation}
                         title={"Performance Evaluation"}
                         text={"Gain a clear view of your supply chain and optimize supplier selection"}
+                        background="rgba(28, 151, 176, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center'>
@@ -91,6 +93,7 @@ const Codin = () => {
                         img={ContractorsControl}
                         title={"Contractors Control"}
                         text={"Gain a clear view of your supply chain and optimize supplier selection"}
+                        background="rgba(28, 151, 176, 1)"
                         />
                     </div>
                 </div>
@@ -100,6 +103,7 @@ const Codin = () => {
                         img={DataQuality}
                         title={"Data Quality Management"}
                         text={"Make informed decisions with accurate, high-quality data."}
+                        background="rgba(28, 151, 176, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center codin__ServiceCards-MiddleColumn'>
@@ -107,6 +111,7 @@ const Codin = () => {
                         img={Prequalification}
                         title={"Prequalification, Restricted Lists and Conflicts of Interest"}
                         text={"Minimize risk and ensure excellence with a comprehensive prequalification process."}
+                        background="rgba(28, 151, 176, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center'>
@@ -114,6 +119,7 @@ const Codin = () => {
                         img={Contract}
                         title={"Contract Management and Certification"}
                         text={"Streamline contract administration and ensure certification with standardized processes."}
+                        background="rgba(28, 151, 176, 1)"
                         />
                     </div>
                 </div>

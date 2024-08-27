@@ -1,8 +1,8 @@
 import './caseStudy.css'
-import arrow from '../../assets/caseStudyArrow.png'
 
 
-const CaseStudy = ({ badge, imgLogo, alt, title, text, carouselItems }) => {
+
+const CaseStudy = ({ badge, imgLogo, alt, title, text, carouselItems, id }) => {
     return (
         <div className='container caseStudy__MainContaidner'>
             <div className='row caseStudy__ContentContainer'>
@@ -13,14 +13,11 @@ const CaseStudy = ({ badge, imgLogo, alt, title, text, carouselItems }) => {
                             <img className='caseStudy__Logo' src={imgLogo} alt={alt}/>
                             <h2 className='caseStudy__Title'>{title}</h2>
                             <p className='caseStudy__Text'>{text}</p>
-                        </div>
-                        {/* <div className='col-12 col-xl-4 d-flex align-items-center p-5'>
-                            <img className='caseStudy__arrow' src={arrow} alt='Arrow'/>
-                        </div> */}
+                        </div>                       
                     </div>
                 </div>
                 <div className='col-sm-12 col-xl-8 caseStudy__SliderContainer'>
-                    <div id="carouselExample" className="carousel slide">
+                    <div id={`carouselExample-${id}`} className="carousel slide">
                         <div className="carousel-inner">
                             {carouselItems.map((item, index) => (
                                 <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
@@ -30,11 +27,11 @@ const CaseStudy = ({ badge, imgLogo, alt, title, text, carouselItems }) => {
                                 </div>
                             ))}
                         </div>
-                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <button className="carousel-control-prev" type="button" data-bs-target={`#carouselExample-${id}`} data-bs-slide="prev">
                             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span className="visually-hidden">Previous</span>
                         </button>
-                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <button className="carousel-control-next" type="button" data-bs-target={`#carouselExample-${id}`} data-bs-slide="next">
                             <span className="carousel-control-next-icon" aria-hidden="true"></span>
                             <span className="visually-hidden">Next</span>
                         </button>

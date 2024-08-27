@@ -50,11 +50,12 @@ const ConsultingPage = () => {
                 Subtitle={"Minexus offers a wide range of consulting services designed to boost the efficiency and operational effectiveness of your company's supply chain:"}
             />
                 <div className='row d-flex justify-content-center align-items-center codin__ServiceCards-Container'>
-                    <div className='col d-flex justify-content-center align-items-center'>
+                    <div className='col d-flex align-items-center'>
                         <ServiceCard
                         img={SAPimg}
                         title={"Supplier Mapping"}
                         text={"Gain a clear view of your supply chain and optimize supplier selection"}
+                        background="rgba(38, 58, 151, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center codin__ServiceCards-MiddleColumn'>
@@ -62,6 +63,7 @@ const ConsultingPage = () => {
                         img={Purchase}
                         title={"Performance Evaluation"}
                         text={"Gain a clear view of your supply chain and optimize supplier selection"}
+                        background="rgba(38, 58, 151, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center'>
@@ -69,6 +71,7 @@ const ConsultingPage = () => {
                         img={Sourcing}
                         title={"Contractors Control"}
                         text={"Gain a clear view of your supply chain and optimize supplier selection"}
+                        background="rgba(38, 58, 151, 1)"
                         />
                     </div>
                 </div>
@@ -78,6 +81,7 @@ const ConsultingPage = () => {
                         img={Warehouse}
                         title={"Data Quality Management"}
                         text={"Make informed decisions with accurate, high-quality data."}
+                        background="rgba(38, 58, 151, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center codin__ServiceCards-MiddleColumn'>
@@ -85,6 +89,7 @@ const ConsultingPage = () => {
                         img={Audits}
                         title={"Prequalification, Restricted Lists and Conflicts of Interest"}
                         text={"Minimize risk and ensure excellence with a comprehensive prequalification process."}
+                        background="rgba(38, 58, 151, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center'>
@@ -92,6 +97,7 @@ const ConsultingPage = () => {
                         img={MRPimg}
                         title={"Contract Management and Certification"}
                         text={"Streamline contract administration and ensure certification with standardized processes."}
+                        background="rgba(38, 58, 151, 1)"
                         />
                     </div>
                 </div>

@@ -137,6 +137,7 @@ const Cataloging = () => {
                         img={Workshop}
                         title={"Workshop Diagnosis and recommendation"}
                         text={"We conduct a thorough analysis of the client's operations, including the study of existing data and interviews with key users, to provide customized recommendations."}
+                        background="rgba(0, 157, 95, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center'>
@@ -144,6 +145,7 @@ const Cataloging = () => {
                         img={Debugging}
                         title={"Debugging and Normalization"}
                         text={"We offer a tool that automates the categorization and normalization of material/product descriptions, facilitating data management and maintenance."}
+                        background="rgba(0, 157, 95, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center'>
@@ -151,6 +153,7 @@ const Cataloging = () => {
                         img={Purchase}
                         title={"Purchase Descriptions Enrichment"}
                         text={"We enrich purchase descriptions with customer-validated data, which is automatically integrated into the ERP following a jointly defined process."}
+                        background="rgba(0, 157, 95, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center'>
@@ -158,6 +161,7 @@ const Cataloging = () => {
                         img={ADCimg}
                         title={"ADC Process for New Materials"}
                         text={"We establish an Additions, Deletions and Chances (ADC) process for new materials, promoting standardization and continuous updating of the catalog."}
+                        background="rgba(0, 157, 95, 1)"
                         />
                     </div>
             </div>
@@ -177,6 +181,7 @@ const Cataloging = () => {
             title={"How Aliken Transformed Data Handling"}
             text={"Allkem was facing significant challenges in cataloging and purging materials, which affected operational efficiency and data accuracy."}
             carouselItems={carouselItems1}
+            id={"1"}
             />
             <CaseStudy
             badge={"CASE STUDY"}
@@ -185,6 +190,7 @@ const Cataloging = () => {
             title={"360 Energy's Cataloging Transformation"}
             text={"360 Energy was facing challenges in the standardization and cataloging of materials and services, which affected the accurate classification and description of these."}
             carouselItems={carouselItems2}
+            id={"2"}
             />
             <CaseStudy
             badge={"CASE STUDY"}
@@ -193,6 +199,7 @@ const Cataloging = () => {
             title={"Exar's Data Overhaul"}
             text={"Exar faced challenges in the standardization and cataloging of materials and services, which affected their accurate classification and description."}
             carouselItems={carouselItems3}
+            id={"3"}
             />
         </div>
         <SliderSection 

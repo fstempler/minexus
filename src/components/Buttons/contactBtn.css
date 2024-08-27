@@ -9,7 +9,7 @@
     background-color: #fff;
     transition: background-color 0.5s;
 }
-.contacBtn:hover{
+.contactBtn:hover{
     background-color: #263A97 !important;
     color: #fff !important;
 }

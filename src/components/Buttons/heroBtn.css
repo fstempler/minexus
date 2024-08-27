@@ -8,4 +8,18 @@
     border-style: none;
     border-radius: 7px;
     background-color: #fff;
+    transition: all 0.3s ease-in-out; 
+}
+.heroBtn__Icon{
+    margin-left: 5px; 
+    transition: transform 0.3s ease-in-out; 
+    transition: all 0.3s ease-in-out;
+}
+
+.heroBtn:hover {
+    padding-right: 17px;     
+}
+
+.heroBtn:hover .heroBtn__Icon {    
+    margin-left: 15px;
 }

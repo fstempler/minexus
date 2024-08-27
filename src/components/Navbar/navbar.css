@@ -6,7 +6,10 @@
     color: #373737;
     font-size: 16px;
     font-weight: 600;
-    padding: 10px 0;
+    padding: 10px 0;    
+}
+.navbar__Btn:hover{
+    border-bottom: solid 2px #263A97;
 }
 .navbar__dropdown{
     border: 0;
