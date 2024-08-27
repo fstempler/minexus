@@ -8,7 +8,7 @@ const FeatureImgLGreen = ({ ImgLink, alt, Badge, Title, Subtitle, link, Button }
                 <div className='row'>
                     
                     
-                    <div className='col-12 col-lg-6 p-3 order-sm-1 d-flex flex-column'>
+                    <div className='col-12 col-lg-6 p-3 order-sm-1 d-flex flex-column justify-content-center'>
                         <h3 className='featureImgLGreen__Badge'>{Badge}</h3>
                         <h1 className='featureImgLGreen__Title'>{Title}</h1>
                         <h3 className='featureImgLGreen__Subtitle'>{Subtitle}</h3>

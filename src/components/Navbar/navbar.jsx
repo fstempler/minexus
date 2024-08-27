@@ -1,4 +1,4 @@
-import logo from '../../assets/Logo/Minexus Logo.png'
+import logo from '../../assets/Logo/Minexus Logo.svg'
 //style
 import "./navbar.css"
 //components

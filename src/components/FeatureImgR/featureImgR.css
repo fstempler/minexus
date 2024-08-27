@@ -29,6 +29,10 @@
     color: #000;
     font-weight: 400;    
 }
+.featureImgR__Img{
+    width: 100%;
+    height: auto;    
+}
 
 /* @media (max-width: 576px) {
     .featureImgR__Container{        

@@ -19,7 +19,7 @@ const FeatureImgR = ({ ImgLink, alt, Title, Badge, Subtitle, link, Button, backg
                         <h3 className='featureImgR__Subtitle'>{Subtitle}</h3>
                         <div className='featureImgR__Button'><a href={link}>{Button}</a></div>
                     </div>
-                    <div className='col-12 col-lg-6 order-md-1 d-flex justify-content-center'>
+                    <div className='col-12 col-lg-6 order-md-1 d-flex justify-content-center align-items-center'>
                         <img src={ImgLink} className='featureImgR__Img'alt={alt}/>
                     </div>
                 </div>            

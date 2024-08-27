@@ -50,6 +50,7 @@
 @media screen and (max-width: 576px) {
     .hero__WithImage-Container{        
         padding: 30px;    
+        margin-top: 40px;        
     }
     .heroSectionTitle{                 
         font-size: 12px;  

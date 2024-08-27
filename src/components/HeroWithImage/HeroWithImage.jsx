@@ -15,7 +15,7 @@ const heroNoImage = ({ Title, Badge, Subtitle, Button, link, ImgLink, alt, backg
                         <h3 className='heroSectionSubtitle'>{Subtitle}</h3>
                         <div className='heroSectionButton'><a href={link}>{Button}</a></div>
                     </div>
-                    <div className='col-12 col-lg-6 order-md-1'>
+                    <div className='col-12 col-lg-6 order-md-1 d-flex justify-content-center align-items-center'>
                         <img src={ImgLink} className='heroSectionImg'alt={alt}/>
                     </div>
                 </div>            
