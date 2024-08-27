@@ -3,6 +3,8 @@ import './footer.css'
 import BlueBtn from '../Buttons/blueBtn';
 import SubscribeForm from '../SubscribeForm/SubscribeForm';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 //Images
 import FooterImg from '../../assets/FooterImg.png'
 import telIcon from '../../assets/telIcon.png'
@@ -24,6 +26,17 @@ const Footer = () => {
             document.getElementById('bitrix-form-container').appendChild(script);
         }
     }, []);
+
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash === '#qualityPolicies') {
+            const element = document.getElementById('qualityPolicies');
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }
+    }, [location]);
 
     return (
         <div className='footer__MainContainer'>
@@ -83,7 +96,7 @@ const Footer = () => {
                         <div className='footer__Copyright-Separator'></div>
                         <li className='footer__Copyright'><a href='' className='footer__Copyright-Link'>Términos y Condiciones</a></li>
                         <div className='footer__Copyright-Separator'></div>
-                        <li className='footer__Copyright'><a href='' className='footer__Copyright-Link'>Política de Privacidad</a></li>
+                        <li className='footer__Copyright'><Link to='aboutUs/#qualityPolicies' className='footer__Copyright-Link'>Política de Privacidad</Link></li>
                         <div className='footer__Copyright-Separator'></div>
                         <li className='footer__Copyright'><a href='' className='footer__Copyright-Link'>Carga tu CV</a></li>
                         <div className='footer__Copyright-Separator'></div>

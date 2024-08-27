@@ -70,9 +70,8 @@ const Home = () => {
         Subtitle={"Elevate your business with solutions that integrate design, inventory control and expertise in leading systems such as Oracle and SAP."}
         Button={<HeroBtn text={"Discover our products"} />}
         />
-        <div className='container-fluid'>
-            <div className='row homeCards__Container'>
-                <div className='col'>
+        <div className='container-fluid homeCards__Container'>
+        
                     <HeroCard
                     backgroundImage={CodinBack}
                     categoryLogo={CodinLogo}
@@ -85,8 +84,8 @@ const Home = () => {
                     iconColor={"#1C97B0"}
                     link={"http://www.google.com"}
                     />
-                </div>
-                <div className='col'>
+        
+        
                     <HeroCard
                     backgroundImage={CataloguingBack}
                     categoryLogo={CataloguingLogo}
@@ -99,8 +98,8 @@ const Home = () => {
                     iconColor={"#009D5F"}
                     link={"http://www.google.com"}
                     />
-                </div>
-                <div className='col'>
+        
+        
                     <HeroCard
                     backgroundImage={ConsultingBack}
                     categoryLogo={ConsultingLogo}
@@ -113,9 +112,9 @@ const Home = () => {
                     iconColor={"#263A97"}
                     link={"http://www.google.com"}
                     />
-                </div>
-            </div>
+        
         </div>
+        
         <div className='home__FeaturesContainer d-flex flex-column gap-5'>
             <FeatureImgR
             ImgLink={SupplyChain}

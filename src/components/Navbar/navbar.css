@@ -1,5 +1,6 @@
+
 .navbar__Container{
-    background-color: #fff;
+    background-color: #FAFAFF;
 }
 .navbar__Btn{
     color: #373737;
@@ -7,13 +8,11 @@
     font-weight: 600;
     padding: 10px 0;
 }
-.navbar__Btn:hover{
-    border-bottom: solid 2px #373737;
-}
 .navbar__dropdown{
     border: 0;
     border-radius: 0;
     padding: 0 5px;
+    background-color: #FAFAFF;
 }
 .btn__Container{
     display: flex;
@@ -27,9 +26,16 @@
 }
 
 
-/* Separar botones en 2 contenedores */
-
 .navbar__line{
     background-color: #263A97;
     color: #263A97;
+}
+
+@media (max-width: 576px) {
+    .navbar{
+        width: 100vw;
+    }
+    .btn__Container{
+        gap: 5px;
+    }
 }

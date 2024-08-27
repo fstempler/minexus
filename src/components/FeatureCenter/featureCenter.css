@@ -50,4 +50,7 @@
     .featureCenter__Title{
         padding: 0;
     }
+    .featureCenter__Subtitle{        
+        padding: 0 10px;
+    }
 }

@@ -4,11 +4,19 @@ import "./navbar.css"
 //components
 import ContactBtn from '../Buttons/contactBtn'
 import BlueBtnNav from '../Buttons/blueBtnNav'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 //<>
 const navbar = () =>{
+
+    const location = useLocation();
+
+    useEffect(() => {
+        window-scrollTo(0, 0);
+    }, [location]);
+
     return (
-        <nav className="navbar navbar-expand-lg bg-body-primary p-3 px-5 d-flex align-items-center navbar__Container fixed-top">
+        <nav className="navbar navbar-expand-lg bg-body-primary p-sm-3 px-sm-5 d-flex align-items-center navbar__Container fixed-top">
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/"><img src={logo} alt="Minexus Logo" /></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,7 +1,12 @@
 .homePageCard__Container{
     width: 392px;
     height: 446px;
-    filter: drop-shadow(10px 10px 4px #00000011);      
+    filter: drop-shadow(10px 10px 4px #00000011);     
+    transition: all 0.3s ease-in-out; 
+    margin: 0;
+}
+.homePageCard__Container:hover{
+    filter: drop-shadow(10px 10px 4px #00000050);     
 }
 
 .titleContainer{
@@ -47,10 +52,11 @@
     line-height: 1.5em;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1112px) {
     .homePageCard__Container{
         width: 350px;
         height: 402px;
-        margin-top: 20px;
+        margin-top: 50px;
     }
 }
+

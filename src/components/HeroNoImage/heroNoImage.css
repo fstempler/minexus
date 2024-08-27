@@ -43,7 +43,9 @@
 }
 @media screen and (max-width: 576px) {
     .heroNoImage__Container{        
+        margin-top: 80px;
         padding: 30px;        
+        width: 100%;
     }
     .heroTitle{    
         font-size: 30px;        

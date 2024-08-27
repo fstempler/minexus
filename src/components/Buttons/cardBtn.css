@@ -12,3 +12,24 @@
     font-weight: 600;
     font-size: 18px;
 }
+
+.cardBtn p {
+    display: flex;
+    align-items: center;
+}
+
+.cardIcon {
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 5px; 
+    transition: transform 0.3s ease-in-out; 
+    transition: all 0.3s ease-in-out;
+}
+
+.cardBtn:hover {
+    padding-right: 17px;     
+}
+
+.cardBtn:hover .cardIcon {    
+    margin-left: 15px;
+}

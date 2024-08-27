@@ -71,7 +71,7 @@ const AboutUs = () => {
             <div className='container aboutUs__Quality-Container'>
                 <div className='row'>
                     <div className='col d-flex justify-content-center align-items-center'>
-                        <h2 className='aboutUs__Title'>Quality Policies</h2>
+                        <h2 className='aboutUs__Title' id='qualityPolicies'>Quality Policies</h2>
                     </div>
                     <div className='col'>
                         <p className='aboutUs__Text'>MINEXUS, our purpose is to provide integral solutions in the area of Supply Chain for all industries. To this end, we have focused our strategy on the development of innovative, flexible and reliable services. 
