@@ -46,7 +46,7 @@ const navbar = () =>{
                             <Link className="nav-link navbar__LgBtn" to="/">ES EN</Link>
                         </li>
                         <li className="nav-item btn__Container">
-                            <Link className="nav-link" to="/"><ContactBtn icon={ <i className="bi bi-headset"></i> } text={ "Contact Sales" } /></Link>
+                            <Link className="nav-link" to="/contactUs"><ContactBtn icon={ <i className="bi bi-headset"></i> } text={ "Contact Sales" } /></Link>
                             <Link className="nav-link" to="/"><BlueBtnNav text={ "CODIN Access" } /></Link>                            
                         </li>
                         <li className="nav-item">

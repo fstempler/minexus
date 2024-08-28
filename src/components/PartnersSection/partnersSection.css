@@ -45,4 +45,7 @@
     .caseStudy__MainContaidner{
         display: none;
     }
+    .partnerSection__Image{        
+        max-height: 90%;        
+    }
 }

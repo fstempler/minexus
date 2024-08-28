@@ -37,7 +37,7 @@
 
 @media screen and (max-width: 1200px) {
     .heroNoImage__Container{        
-        padding: 86px 149px 58px 149px;
+        padding: 150px 149px 58px 149px;
     }
     
 }
@@ -46,9 +46,11 @@
         margin-top: 80px;
         padding: 30px;        
         width: 100%;
+        height: 550px;
     }
     .heroTitle{    
-        font-size: 30px;        
+        font-size: 48px;
+        line-height: 45px;           
     }
     .heroSubtitle{
         font-size: 15px;     

@@ -2,3 +2,9 @@
 .consulting__FeaturesContainer{
     padding: 25px 300px 25px 300px;
 }
+
+@media (max-width: 1200px) {    
+    .consulting__FeaturesContainer{
+        padding: 25px 0 25px 0;
+    }
+}

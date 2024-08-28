@@ -1,4 +1,5 @@
 import "./homePageCard.css";
+import { Link } from "react-router-dom";
 
 const homePageCard = ({ backgroundImage, categoryLogo, title, subtitle, textData1, textData2, textData3, button, link, iconColor }) => {
     const backgroundImg = {
@@ -21,7 +22,9 @@ const homePageCard = ({ backgroundImage, categoryLogo, title, subtitle, textData
                     <li><span><i className="bi bi-check-circle-fill" style={iconColors}></i></span> {textData2}</li>
                     <li><span><i className="bi bi-check-circle-fill" style={iconColors}></i></span> {textData3}</li>
                 </ul>
-                <a href={link}><div className="pr-4">{button}</div></a>
+                <Link to={link}>
+                    <div className="pr-4">{button}</div>
+                </Link>
             </div>
         </div>
         

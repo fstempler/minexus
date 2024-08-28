@@ -49,8 +49,7 @@
         padding: 90px 50px 90px 50px;
     }
     .startToday__Image{
-        margin-right: -60px;
-        width: 80%;
+        display: none;        
     }
     .startToday__TextContainer{
         padding: 0;

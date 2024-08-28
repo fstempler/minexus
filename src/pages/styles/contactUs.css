@@ -1,0 +1,62 @@
+.contact-Container{
+    background-color: #FAFAFF;
+    background-image: url(../../assets/Hero Gradient Background.png);    
+    background-size: cover;
+    background-repeat: no-repeat;    
+    margin: 0;
+    padding: 100px;       
+}
+.contact__DataContainer{
+    margin-bottom: 200px;
+}
+.contactSectionBadge{
+    border-style: solid;
+    text-align: center;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: #fff;
+    width: max-content;
+    padding: 2px 15px 2px 15px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.contactSectionTitle{
+    text-align: left;
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Creato Display', sans-serif;
+    line-height: 70px;
+}
+.contactSectionSubtitle{
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+.location__Container{
+    margin: 50px 0;
+}
+.address__Title{
+    font-size: 18px;
+    font-weight: 700;
+}
+.address__Data{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media (max-width: 576px) {    
+    .contact-Container{      
+        margin-top: 30px;  
+        padding: 30px;       
+    }
+    .location__Container{
+        padding: 30px;
+    }
+    .location__Image{
+        margin-top: 30px;
+        width: 100%;
+    }
+}

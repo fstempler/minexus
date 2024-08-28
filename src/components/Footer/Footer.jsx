@@ -45,7 +45,7 @@ const Footer = () => {
                 <div className='col-12 col-sm-6 d-flex justify-content-center align-items-start flex-column gap-3 startToday__TextContainer'>
                     <h2 className='startToday__Title'>Start today</h2>
                     <p className='startToday__Text'>Don't let this minute slip away. Learn how you can pivot from manual to automated processes.</p>
-                    <BlueBtn text={"Let's Talk"} icon={ <i className="bi bi-arrow-right"></i> }/>
+                    <Link to="/contactUs"><BlueBtn text={"Let's Talk"} icon={ <i className="bi bi-arrow-right"></i> }/></Link>
                 </div>
                 <div className='col-12 col-sm-6 d-flex justify-content-end'>
                     <img src={FooterImg} alt="Footer Image" className='startToday__Image'/>
@@ -68,21 +68,21 @@ const Footer = () => {
                 <div className='col col-lg-4 footer__SiteLinks-Container'>
                     <h2 className='footer__Title'>Minexus</h2>
                     <ul className='footer__SiteLinks-List'>
-                        <li className='footer__SiteLinks'><a href='' className=''>Home</a></li>
+                        <li className='footer__SiteLinks'><Link to='/' className=''>Home</Link></li>
                         <hr className='footer__SiteLinks-Line'></hr>
-                        <li className='footer__SiteLinks'><a href='' className=''>CODIN</a></li>
+                        <li className='footer__SiteLinks'><Link to='/codin' className=''>CODIN</Link></li>
                         <hr className='footer__SiteLinks-Line'></hr>
-                        <li className='footer__SiteLinks'><a href='' className=''>Cataloging</a></li>
+                        <li className='footer__SiteLinks'><Link to='/cataloging' className=''>Cataloging</Link></li>
                         <hr className='footer__SiteLinks-Line'></hr>
-                        <li className='footer__SiteLinks'><a href='' className=''>Consulting</a></li>
+                        <li className='footer__SiteLinks'><Link to='/consulting' className=''>Consulting</Link></li>
                         <hr className='footer__SiteLinks-Line'></hr>
-                        <li className='footer__SiteLinks'><a href='' className=''>About us</a></li>
+                        <li className='footer__SiteLinks'><Link to='/aboutUs' className=''>About us</Link></li>
                         <hr className='footer__SiteLinks-Line'></hr>
-                        <li className='footer__SiteLinks'><a href='' className=''>Blog</a></li>
+                        <li className='footer__SiteLinks'><Link to='/' className=''>Blog</Link></li>
                         <hr className='footer__SiteLinks-Line'></hr>
-                        <li className='footer__SiteLinks'><a href='' className=''>Contact us</a></li>
+                        <li className='footer__SiteLinks'><Link to='/contactUs' className=''>Contact us</Link></li>
                         <hr className='footer__SiteLinks-Line'></hr>
-                        <li className='footer__SiteLinks'><a href='' className=''>ES EN</a></li>
+                        <li className='footer__SiteLinks'><Link to='' className=''>ES EN</Link></li>
                     </ul>
                 </div>
                 <div className='col  col-lg-4 footer__ContactForm-Container'>

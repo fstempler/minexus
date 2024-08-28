@@ -43,14 +43,10 @@
     border-radius: 3px;
 }
 
-/* @media (max-width: 1200px) {
-    .joinSection__Image{        
-        margin: -150px;
-    }    
-} */
 
 @media (max-width: 576px) {
     .joinSection__MainContainer{
+        margin-top: 100px;
         padding: 0;
         width: 80vw;
     }

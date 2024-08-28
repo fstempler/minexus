@@ -5,6 +5,11 @@
 .cataloging__FeaturesContainer{
     padding: 25px 300px 87px 300px;
 }
+@media (max-width: 1200px) {    
+    .cataloging__FeaturesContainer{
+        padding: 25px 0 25px 0;
+    }
+}
 @media (max-width: 576px) {
     .cataloging__ServiceCards-Container{
         padding: 10px;

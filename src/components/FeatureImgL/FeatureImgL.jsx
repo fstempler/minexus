@@ -12,16 +12,16 @@ const FeatureImgL = ({ ImgLink, alt, Badge, Title, Subtitle, link, Button, backg
             <div className='container'>
                 <div className='row'>
                     
-                    
-                    <div className='col-12 col-lg-6 p-3 order-sm-1'>
+                    <div className='col-12 col-lg-6 d-flex justify-content-center'>
+                        <img src={ImgLink} className='featureImgL__Img'alt={alt}/>
+                    </div>
+                    <div className='col-12 col-lg-6 p-3'>
                         <h3 className='featureImgL__Badge'>{Badge}</h3>
                         <h1 className='featureImgL__Title'>{Title}</h1>
                         <h3 className='featureImgL__Subtitle'>{Subtitle}</h3>
                         <div className='featureImgL__Button'><a href={link}>{Button}</a></div>
                     </div>
-                    <div className='col-12 col-lg-6 d-flex justify-content-center'>
-                        <img src={ImgLink} className='featureImgL__Img'alt={alt}/>
-                    </div>
+                    
 
                 </div>            
             </div>

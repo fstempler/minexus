@@ -64,7 +64,7 @@ const Home = () => {
         Subtitle={"Elevate your business with solutions that integrate design, inventory control and expertise in leading systems such as Oracle and SAP."}
         Button={<HeroBtn text={"Discover our products"} />}
         />
-        <div className='container-fluid homeCards__Container'>
+        <div className='container-fluid homeCards__Container row'>
         
                     <HeroCard
                     backgroundImage={CodinBack}
@@ -76,7 +76,7 @@ const Home = () => {
                     textData3={"Contractors control"}
                     button={<CardBtn text={"See our solutions"}/>}
                     iconColor={"#1C97B0"}
-                    link={"http://www.google.com"}
+                    link={"/codin"}
                     />
         
         
@@ -90,7 +90,7 @@ const Home = () => {
                     textData3={"Standarization"}
                     button={<CardBtn text={"Discover Cataloguing"}/>}
                     iconColor={"#009D5F"}
-                    link={"http://www.google.com"}
+                    link={"/cataloging"}
                     />
         
         
@@ -104,7 +104,7 @@ const Home = () => {
                     textData3={"Inventory Control "}
                     button={<CardBtn text={"Let's talk"}/>}
                     iconColor={"#263A97"}
-                    link={"http://www.google.com"}
+                    link={"/consulting"}
                     />
         
         </div>

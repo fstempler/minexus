@@ -7,7 +7,10 @@ const ServiceCard = ({ img, alt, title, text, background }) => {
 
     return (
         <div className="serviceCard__Container d-flex flex-column justify-content-evenly align-items-start">
-            <img className='serviceCardImg' src={img} alt={alt} style={sectionStyle}/>
+            <div className='serviceCardImg__Container'> 
+            <img className='serviceCardImg' src={img} alt={alt} style={sectionStyle}/>    
+            </div>
+            {/* <img className='serviceCardImg' src={img} alt={alt} style={sectionStyle}/> */}
             <h2 className='serviceCardTitle'>{title}</h2>
             <p className='serviceCardText'>{text}</p>
         </div>

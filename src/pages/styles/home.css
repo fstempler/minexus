@@ -12,14 +12,17 @@
 
 @media (max-width: 1800px) {
     .homeCards__Container {
-        padding: 0 200px 25px 200px;
+        padding: 0 100px 25px 100px;
         gap: 10px;
     }
 }
 
 @media (max-width: 1200px) {
     .homeCards__Container {
-        padding: 0 150px 25px 150px;
+        padding: 0 0 25px 0;
+    }
+    .home__FeaturesContainer{
+        padding: 25px 0 25px 0;
     }
 }
 
@@ -44,6 +47,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: -90px;  
     }
     .home__FeaturesContainer{
         padding: 30px;

@@ -31,7 +31,9 @@
     font-weight: 400;
 }
 .featureImgLGreen__Img{
-    width: 65%;
+    width: 100%;
+    min-width: 50%;
+    height: auto;
 }
 @media screen and (max-width: 576px) {
     .featureImgLGreen__Img{

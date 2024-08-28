@@ -8,6 +8,7 @@ import Codin from './pages/Codin';
 import Cataloging from './pages/Cataloging';
 import Consulting from './pages/Consulting';
 import AboutUs from './pages/AboutUs';
+import ContactUs from './pages/ContactUs';
 // styles
 import './App.css';
 
@@ -29,6 +30,7 @@ const routes = createBrowserRouter(
       <Route path="/cataloging" element={<Cataloging />} />
       <Route path="/consulting" element={<Consulting />} />
       <Route path="/aboutus" element={<AboutUs />} />
+      <Route path="/contactUs" element={<ContactUs />} />
     </Route>
   )  
 );

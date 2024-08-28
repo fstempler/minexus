@@ -2,7 +2,7 @@ import './featureCenter.css'
 
 const FeatureCenter = ({ Badge, Title, Subtitle, link, Button, ImgLink, alt, ImgLinkMobile }) => {
     return (
-        <section className="container-fluid d-flex flex-column justify-content-center featureCenter__Container p-5 align-items-center">
+        <section className="container-fluid d-flex flex-column justify-content-center featureCenter__Container p-sm-1 p-lg-5 align-items-center">
             <div className='container row-gap-3'>
                 <div className='row d-flex justify-content-center'>
                     <h3 className='featureCenter__Badge'>{Badge}</h3>

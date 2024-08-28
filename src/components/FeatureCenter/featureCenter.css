@@ -15,7 +15,7 @@
     color: #263A97;
 }
 .featureCenter__Img{
-    max-width: 70%;
+    max-width: 80%;
 }
 
 .featureCenter__Title{
@@ -40,12 +40,43 @@
     display: none;
 }
 
+@media (max-width: 1800px) {
+    .featureCenter__Title{        
+        padding: 0 250px;        
+    }
+    .featureCenter__Subtitle{        
+        padding: 0 250px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .featureCenter__Title{        
+        padding: 0 150px;        
+    }
+    .featureCenter__Subtitle{        
+        padding: 0 150px;
+    }
+}
+
+@media (max-width: 950px) {
+    .featureCenter__Title{        
+        padding: 0 75px;        
+    }
+    .featureCenter__Subtitle{        
+        padding: 0 75px;
+    }
+}
+
 @media (max-width: 576px) {
+    .featureCenter__Container{            
+        padding: 10px;
+    }
     .featureCenter__Img{
         display: none;
     }
     .featureCenterMobile__Img{
         display: flex;
+        width: 100%;
     }
     .featureCenter__Title{
         padding: 0;
