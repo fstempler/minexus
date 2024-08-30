@@ -6,10 +6,8 @@
     align-items: center;
     padding: 0 300px;
 }
-.home__FeaturesContainer{
-    /* padding: 25px 300px 25px 300px; */
-    width: 1200px;    
-    
+.home__FeaturesContainer{    
+    width: 1200px;        
 }
 
 @media (max-width: 1800px) {
@@ -31,6 +29,9 @@
 @media (max-width: 992px) {
     .homeCards__Container {
         padding: 0 100px 25px 100px;
+    }
+    .home__FeaturesContainer{    
+        width: 100%;        
     }
 }
 
