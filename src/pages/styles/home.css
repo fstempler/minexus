@@ -7,7 +7,9 @@
     padding: 0 300px;
 }
 .home__FeaturesContainer{
-    padding: 25px 300px 25px 300px;
+    /* padding: 25px 300px 25px 300px; */
+    width: 1200px;    
+    
 }
 
 @media (max-width: 1800px) {

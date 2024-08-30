@@ -130,8 +130,8 @@ const Home = () => {
                     />
         
         </div>
-        
-        <div className='home__FeaturesContainer d-flex flex-column gap-5'>
+        <div className='d-flex justify-content-center'>
+        <div className='home__FeaturesContainer d-flex flex-column gap-5 justify-content-center align-items-center'>
             <FeatureImgR
             ImgLink={SupplyChain}
             alt={"Supply Chain Management"}
@@ -178,7 +178,7 @@ const Home = () => {
             <JoinSection />
             <BlogSection />
         </div>
-        
+        </div>
         </>
     )
 }
