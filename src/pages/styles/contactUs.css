@@ -1,10 +1,10 @@
 .contact-Container{
+    margin-top: 50px;
+    padding: 50px 0 0 0;
     background-color: #FAFAFF;
-    background-image: url(../../assets/Hero Gradient Background.png);    
+    background-image: url("../../assets/Hero Gradient Background.png");    
     background-size: cover;
-    background-repeat: no-repeat;    
-    margin: 0;
-    padding: 100px;       
+    background-repeat: no-repeat;            
 }
 .contact__DataContainer{
     margin-bottom: 200px;

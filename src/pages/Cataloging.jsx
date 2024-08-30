@@ -30,13 +30,13 @@ import ExarLogo from '../assets/logosClients/ExarLogo.png'
 const carouselItems1 = [
     [
         <CaseStudyCard
-             key="solution1"
+            key="solition1"
             badge="SOLUTION"
             title="Material Cataloging and Debugging Workshop"
             text="Minexus conducted an intensive workshop with the client to review and improve the cataloging procedure. A new form and unification of cataloging users was proposed. In addition, new cataloging standards, standardization of descriptions, masters of units of measure, manufacturers and standardized abbreviations were delivered."
         />,
         <CaseStudyCard
-            key="standardization1"
+            key="standarization1"
             badge="STANDARDIZATION"
             title="16,500 items"
             text="Descriptions, units of measure, item groups and classes were standardized and translated into English."
@@ -44,12 +44,34 @@ const carouselItems1 = [
     ],
     [
         <CaseStudyCard
-            key="solution2"
-            badge="SOLUTION"
-            title="Material Cataloging and Debugging Workshop"
+            key="stadarization2"
+            badge="STANDARIZATION"
+            title="16,500 items"
             text="Minexus conducted an intensive workshop with the client to review and improve the cataloging procedure. A new form and unification of cataloging users was proposed. In addition, new cataloging standards, standardization of descriptions, masters of units of measure, manufacturers and standardized abbreviations were delivered."
-        />
-    ]
+        />,
+        <CaseStudyCard
+            key="stadarization3"
+            badge="STANDARIZATION"
+            title="32% items"
+            text="required group or class updating."
+        />           
+    ],
+    [
+        <CaseStudyCard
+            key="dataEnrichment"
+            badge="DATA ENRICHMENT"
+            title="46% materials"
+            text="lacked part number, manufacturer or characteristics, which can be enriched."
+        />,
+        <CaseStudyCard
+            key="executionTime"
+            badge="EXECUTION TIME"
+            title="1 Month"
+            text="of Workshops"
+            title2="4 Months"
+            text2="of debugging."
+        />           
+    ]  
 ];
 
 const carouselItems2 = [
@@ -70,10 +92,42 @@ const carouselItems2 = [
     [
         <CaseStudyCard
             key="material1"
-            badge="Material"
+            badge="MATERIALS"
             title="66%"
             text="were recommended to be migrated to ERP."
+            title2="13%"
+            text2="were upgraded in their unit of measure"
+        />,
+        <CaseStudyCard
+            key="duplicates"  
+            badge="DUPLICATES IDENTIFICATION"
+            title="30% items"
+            text="possible duplicates were identified."
         />
+    ],
+    [
+        <CaseStudyCard
+            key="recomendations"
+            badge="ADDITIONAL RECOMMENDATIONS"
+            text="Batches were recommended to be created for handling coils of the same material, and serializers were recommended to be used to assign different serial numbers to the same material to avoid duplicates."
+        />,
+        <CaseStudyCard
+            key="executionTime2"  
+            badge="EXECUTION TIME"
+            title="1.5 Months"
+            text="of Workshops"
+            title2="1.5 Months"
+            text2="of debugging."
+        />
+    ],
+    [
+        <CaseStudyCard
+            key="continuity"
+            badge="CONTINUITY"
+            title="A/B/M Service Cataloguing"
+            text="After the good results of the cataloging workshop, the client decided to continue with the Add, Cancel and Modify service of cataloging materials and services with Minexus."
+        />
+        
     ]
 ];
 
@@ -95,9 +149,33 @@ const carouselItems3 = [
     [
         <CaseStudyCard
             key="material2"
-            badge="Material"
+            badge="MATERIALS"
             title="43%"
             text="were reclassified on new types"
+            title2="90%"
+            text2="were upgraded in their Valuation Category"
+        />,
+        <CaseStudyCard
+            key="standarization4"
+            badge="STANDARDIZATION OF DESCRIPTION"
+            title="65% of materials"
+            text="possible duplicates were identified."            
+        />
+    ],
+    [
+        <CaseStudyCard
+            key="executionTime3"
+            badge="EXECUTION TIME"
+            title="1 Month"
+            text="of Workshops"
+            title2="5.5 Months"
+            text2="of debugging."
+        />,
+        <CaseStudyCard
+            key="continuity2"
+            badge="CONTINUITY"
+            title="A/B/M Service Cataloguing"
+            text="After the good results of the cataloging workshop, the client decided to continue with the Add, Cancel and Modify service of cataloging materials and services with Minexus."            
         />
     ]
 ];

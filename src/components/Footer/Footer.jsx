@@ -58,9 +58,9 @@ const Footer = () => {
                     <SubscribeForm />
                     <ul className='footer__ContactInfo-List'>
                         <li className='footer__ContactInfo'><img src={telIcon} alt="" className='footer__ContactInfo-Icon' />+54 9 11 3892 9134</li>
-                        <li className='footer__ContactInfo'><img src={mailIcon} alt="" className='footer__ContactInfo-Icon' />info@minexus.com.ar </li>
-                        <li className='footer__ContactInfo'><img src={xIcon} alt="" className='footer__ContactInfo-Icon' />@minexussa</li>
-                        <li className='footer__ContactInfo'><img src={linkedInIcon} alt="" className='footer__ContactInfo-Icon' />/minexus</li>
+                        <Link to="mailto:https://x.com/minexussa"><li className='footer__ContactInfo'><img src={mailIcon} alt="" className='footer__ContactInfo-Icon' />info@minexus.com.ar </li></Link>
+                        <Link to="https://x.com/minexussa" target='_blank'><li className='footer__ContactInfo'><img src={xIcon} alt="" className='footer__ContactInfo-Icon' />@minexussa</li></Link>
+                        <Link to="https://www.linkedin.com/company/minexus/" target='_blank'><li className='footer__ContactInfo'><img src={linkedInIcon} alt="" className='footer__ContactInfo-Icon' />/minexus</li></Link>
                         <li className='footer__ContactInfo'><img src={aaip} alt="" className='footer__ContactInfo-Image' /></li>
                     </ul>
                 </div>

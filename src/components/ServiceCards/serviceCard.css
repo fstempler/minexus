@@ -14,13 +14,12 @@
 }
 
 .serviceCardImg{    
-    width: 70%;
-    background-color: rgba(28, 151, 176, 1);
+    width: 70%;    
     object-fit: cover;
 }
 
 .serviceCardImg__Container{
-    background-color: rgba(28, 151, 176, 1);
+    
     height: 72px;
     width: 72px;
     border-radius: 50%;

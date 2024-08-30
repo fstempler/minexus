@@ -47,12 +47,34 @@ const carouselItems = [
     ],
     [
         <CaseStudyCard
-            key="solution2"
-            badge="SOLUTION"
-            title="Material Cataloging and Debugging Workshop"
+            key="stadarization2"
+            badge="STANDARIZATION"
+            title="16,500 items"
             text="Minexus conducted an intensive workshop with the client to review and improve the cataloging procedure. A new form and unification of cataloging users was proposed. In addition, new cataloging standards, standardization of descriptions, masters of units of measure, manufacturers and standardized abbreviations were delivered."
-        />        
-    ]
+        />,
+        <CaseStudyCard
+            key="stadarization3"
+            badge="STANDARIZATION"
+            title="32% items"
+            text="required group or class updating."
+        />           
+    ],
+    [
+        <CaseStudyCard
+            key="dataEnrichment"
+            badge="DATA ENRICHMENT"
+            title="46% materials"
+            text="lacked part number, manufacturer or characteristics, which can be enriched."
+        />,
+        <CaseStudyCard
+            key="executionTime"
+            badge="EXECUTION TIME"
+            title="1 Month"
+            text="of Workshops"
+            title2="4 Months"
+            text2="of debugging."
+        />           
+    ]    
 ];
 
 const Home = () => {
