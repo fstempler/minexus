@@ -33,12 +33,25 @@
     background-color: #263A97;
     color: #263A97;
 }
-
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .navbar{
-        width: 100vw;
+        width: 100%;        
     }
     .btn__Container{
         gap: 5px;
     }
+    .minexus__Logo{
+        width: 75%;
+    }
 }
+/* @media (max-width: 576px) {
+    .navbar{
+        width: 100%;        
+    }
+    .btn__Container{
+        gap: 5px;
+    }
+    .minexus__Logo{
+        width: 75%;
+    }
+} */

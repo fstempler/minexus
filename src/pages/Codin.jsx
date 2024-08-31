@@ -13,7 +13,6 @@ import JoinSection from '../components/JoinSection/JoinSection'
 import FAQSection from '../components/FAQSection/FAQSection'
 //Images
 import CodinImg from '../assets/CODIN img.png'
-import HeroBackground from '../assets/Gradient Background.png'
 import VirtualCommunity from '../assets/Virtual Community.png'
 import SupplyChain from '../assets/Supply Chain Management.png'
 import AssuredAccuracy from '../assets/Asured Accuracy.png'
@@ -36,8 +35,9 @@ const Codin = () => {
             link={"http://www.google.com"}
             ImgLink={CodinImg}
             alt={"CODIN Image"}
-            backgroundImage={HeroBackground}
+            background="linear-gradient(#1c97b0 50%, #FAFAFF 100%)"
             />
+            <div className='d-flex justify-content-center'>
             <div className='codin__FeaturesContainer d-flex flex-column gap-5'>
                 <FeatureImgL
                 Badge={"INDUSTRIAL CONECTIVITY"}
@@ -129,6 +129,7 @@ const Codin = () => {
                 Text={"Minexus catalyzes the success of the most dynamic start-ups and established compaies."}
                 />
                 <JoinSection />
+            </div>
             </div>
             <FAQSection
             Badge={"CODIN"}

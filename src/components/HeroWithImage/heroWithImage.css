@@ -1,12 +1,13 @@
-.hero__WithImage-Container{
-    background-color: #FAFAFF;    
+.hero__WithImage-Container{    
     background-size: cover;
     background-repeat: no-repeat;    
     margin: 0;
-    padding: 100px;       
+    padding: 100px;      
 }
 .heroWithImage__DataContainer{
-    margin-bottom: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+     
 }
 .heroSectionBadge{
     border-style: solid;
@@ -38,8 +39,8 @@
     text-align: left;
 }
 .heroSectionImg{
-    max-width: 100%;
-    max-height: 100%;  
+    max-width: 90%;
+    max-height: 90%;  
     min-width: 80%;
     min-height: 80%;     
 }
@@ -53,7 +54,8 @@
         margin-top: 40px;        
     }
     .heroSectionTitle{                 
-        font-size: 12px;  
+        font-size: 48px;  
+        line-height: 40px;
     }  
     .heroSectionTag{
         font-size: 48px;

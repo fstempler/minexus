@@ -2,9 +2,9 @@
 .caseStudyCard__Container{
  border: solid 7px #C6D3FF40;
  border-radius: 12px;
- padding: 10px 26px;
+ padding: 10px 16px;
  width: 400px;
- height: 440px;
+ height: 500px;
 }
 .caseStudyCard__Badge{
     text-align: center;    

@@ -1,5 +1,5 @@
 .codin__FeaturesContainer{
-    padding: 25px 300px 25px 300px;
+    width: 1200px;
 }
 .codin__ServiceCards-Container{
     padding: 25px 70px 25px 70px;
@@ -10,9 +10,9 @@
 
 }
 
-@media (max-width: 1200px) {    
+@media (max-width: 992px) {
     .codin__FeaturesContainer{
-        padding: 25px 0 25px 0;
+        width: 100%;
     }
 }
 @media screen and (max-width: 576px) {

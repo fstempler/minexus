@@ -3,11 +3,11 @@
     /* gap: 10px; */
 }
 .cataloging__FeaturesContainer{
-    padding: 25px 300px 87px 300px;
+    width: 1200px;
 }
-@media (max-width: 1200px) {    
+@media (max-width: 992px) {
     .cataloging__FeaturesContainer{
-        padding: 25px 0 25px 0;
+        width: 100%;
     }
 }
 @media (max-width: 576px) {

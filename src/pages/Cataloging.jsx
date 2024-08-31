@@ -191,8 +191,9 @@ const Cataloging = () => {
         link={""}
         ImgLink={cataloging}
         alt={"Cataloging Image"}
-        backgroundImage={backgroundGreen}
+        background="linear-gradient(#009D5F 50%, #FAFAFF 100%)"
         />
+        <div className='d-flex justify-content-center'>
         <div className='cataloging__FeaturesContainer d-flex flex-column gap-5'>
             <FeatureImgR
             Badge={"ADAPTED TO EVERY NEED"}
@@ -279,6 +280,7 @@ const Cataloging = () => {
             carouselItems={carouselItems3}
             id={"3"}
             />
+        </div>
         </div>
         <SliderSection 
         Badge={"OUR CLIENTS"}

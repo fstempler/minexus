@@ -3,6 +3,7 @@
 .startToday__Container{
     background-color: #1C97B0;    
     padding: 90px 182px 90px 182px;
+    margin: 0;
 }
 .startToday__TextContainer{
     padding: 0 80px 0 180px;
@@ -29,24 +30,26 @@
     margin-top: 22px;
 }
 
-@media screen and (max-width: 1200px) {
-    .startToday__Container{
-        padding: 90px 50px 90px 50px;
-    }
-    .startToday__Image{
-        margin-right: -60px;
-        margin-top: 90px;
-    }
-    
-    .startToday__Text{    
-        padding-right: 0;
-    }   
-}
 
+@media (max-width: 1140px) {
+    .startToday__Container{        
+        padding: 30px;
+    }
+    .startToday__TextContainer{
+        padding: 20px;
+    }     
+    .startToday__Image{
+        margin-right: -40px;
+        margin-bottom: -30px;
+        width: 100%;
+        height: auto;
+    }
+}
 
 @media screen and (max-width: 576px) {
     .startToday__Container{
         padding: 90px 50px 90px 50px;
+        margin: 0;
     }
     .startToday__Image{
         display: none;        
@@ -64,6 +67,7 @@
 .footer__Container{
     background-color: #183A5E;
     padding: 23px 44px 25px 44px;
+    margin: 0;
 }
 
 .footer__Title{
@@ -117,8 +121,7 @@
     border-left: 2px solid #fff;
     margin: 0 15px;
 }
-
-@media (max-width: 576px) {    
+@media (max-width: 1140px) {          
     .footer__Copyright-Link{
         text-align: center;
     }   

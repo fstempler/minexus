@@ -1,12 +1,15 @@
 
 import './heroWithImage.css';
 
-const heroNoImage = ({ Title, Badge, Subtitle, Button, link, ImgLink, alt, backgroundImage }) => {
-    const backgroundImg = {
-        backgroundImage: `url(${backgroundImage})`,    
-    }
+const heroNoImage = ({ Title, Badge, Subtitle, Button, link, ImgLink, alt, background }) => {
+
+    const sectionStyle = {
+        background: background || 'none',
+    };
+
+
     return (
-        <section className="container-fluid d-flex flex-column justify-content-start align-items-center hero__WithImage-Container" style={backgroundImg}>
+        <section className="container-fluid d-flex flex-column justify-content-start align-items-center hero__WithImage-Container" style={sectionStyle}>
             <div className='container'>
                 <div className='row heroWithImage__DataContainer'>
                     <div className='col-12 col-lg-6 order-1 p-3 d-flex flex-column gap-3'>

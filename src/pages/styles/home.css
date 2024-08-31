@@ -20,10 +20,7 @@
 @media (max-width: 1200px) {
     .homeCards__Container {
         padding: 0 0 25px 0;
-    }
-    .home__FeaturesContainer{
-        padding: 25px 0 25px 0;
-    }
+    }    
 }
 
 @media (max-width: 992px) {
@@ -36,8 +33,8 @@
 }
 
 @media (max-width: 768px) {
-    .homeCards__Container {
-        padding: 0 50px 25px 50px;
+    .homeCards__Container {  
+        margin: 0;      
     }
 }
 

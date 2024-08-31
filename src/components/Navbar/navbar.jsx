@@ -16,9 +16,9 @@ const navbar = () =>{
     }, [location]);
 
     return (
-        <nav className="navbar navbar-expand-lg bg-body-primary p-sm-3 px-sm-5 d-flex align-items-center navbar__Container fixed-top">
-            <div className="container-fluid">
-                <Link className="navbar-brand" to="/"><img src={logo} alt="Minexus Logo" /></Link>
+        <nav className="navbar navbar-expand-lg bg-body-primary d-flex align-items-center navbar__Container fixed-top">
+            <div className="container-fluid container-sm">
+                <Link className="navbar-brand" to="/"><img src={logo} className='minexus__Logo' alt="Minexus Logo" /></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

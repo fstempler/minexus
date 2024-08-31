@@ -1,10 +1,10 @@
 
 .consulting__FeaturesContainer{
-    padding: 25px 300px 25px 300px;
+    width: 1200px;
 }
-
-@media (max-width: 1200px) {    
+@media (max-width: 992px) {
     .consulting__FeaturesContainer{
-        padding: 25px 0 25px 0;
+        width: 100%;
     }
 }
+

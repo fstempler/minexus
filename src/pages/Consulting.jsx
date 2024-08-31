@@ -30,8 +30,9 @@ const ConsultingPage = () => {
             link={""}
             ImgLink={Consulting}
             alt={"Consulting Image"}
-            backgroundImage={Background}
+            background="linear-gradient(#263A97 50%, #FAFAFF 100%)"
             />
+            <div className='d-flex justify-content-center'>
             <div className='consulting__FeaturesContainer d-flex flex-column gap-5'>
                 <FeatureImgL
                 Badge={"CATALOGING WITH US"}
@@ -44,7 +45,7 @@ const ConsultingPage = () => {
                 background={"linear-gradient(rgba(83, 231, 156, 0.08), rgba(83, 231, 156, 0))"}
                 />
 
-<ServiceFeatureCenter
+            <ServiceFeatureCenter
                 Badge={"CONSULTING"}
                 Title={"Our specialized services"}
                 Subtitle={"Minexus offers a wide range of consulting services designed to boost the efficiency and operational effectiveness of your company's supply chain:"}
@@ -105,7 +106,7 @@ const ConsultingPage = () => {
 
             </div>
 
-            
+            </div>
         </>
     )
 }

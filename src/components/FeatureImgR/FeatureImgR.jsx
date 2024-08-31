@@ -13,7 +13,7 @@ const FeatureImgR = ({ ImgLink, alt, Title, Badge, Subtitle, link, Button, backg
                 <div className='row'>
                     
                     
-                    <div className='col-12 col-lg-6 p-3 order-1 d-flex flex-column'>
+                    <div className='col-12 col-lg-6 p-3 order-1 d-flex flex-column justify-content-center'>
                         <h3 className='featureImgR__Badge'>{Badge}</h3>
                         <h1 className='featureImgR__Title'>{Title}</h1>
                         <h3 className='featureImgR__Subtitle'>{Subtitle}</h3>
