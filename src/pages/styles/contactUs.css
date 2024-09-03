@@ -46,6 +46,10 @@
     font-size: 18px;
     font-weight: 400;
 }
+.contactUs__Map{
+    width: 100%;
+    height: 100%;
+}
 
 @media (max-width: 576px) {    
     .contact-Container{      

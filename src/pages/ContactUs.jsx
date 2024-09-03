@@ -74,7 +74,14 @@ const ContactUs = () => {
                         </div>
                     </div>
                     <div className='col-12 col-lg-6'>
-                        <img className='location__Image' src={map} alt='Location Map'/>
+                        {/* <img className='location__Image' src={map} alt='Location Map'/> */}
+                        <iframe className="contactUs__Map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.724461629647!2d-68.55517872353177!3d-31.531726901838198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968141b4cc63761d%3A0x6adb5885c1bfaac3!2sAv.%20Libertador%20Gral.%20San%20Mart%C3%ADn%201890%2C%20J5400%20San%20Juan!5e0!3m2!1ses!2sar!4v1725373656311!5m2!1ses!2sar"                          
+                        style={{ border:0 }} 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">                            
+                        </iframe>
                     </div>
                 </div>
             </div>
