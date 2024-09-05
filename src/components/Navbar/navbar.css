@@ -9,13 +9,18 @@
     padding: 10px 0;    
 }
 .navbar__Btn:hover{
-    border-bottom: solid 2px #263A97;
+    border-bottom: solid 2px #373737;
 }
-.navbar__dropdown{
+.navbar__dropdown{    
     border: 0;
     border-radius: 0;
     padding: 0 5px;
     background-color: #FAFAFF;
+    border-radius: 10px;
+    border: solid 1px #373737;    
+}
+.dropdown__Button:hover{
+    font-weight: 500;
 }
 .btn__Container{
     display: flex;
@@ -30,8 +35,8 @@
 
 
 .navbar__line{
-    background-color: #263A97;
-    color: #263A97;
+    background-color: #373737;
+    color: #373737;
 }
 @media (max-width: 768px) {
     .navbar{
@@ -44,14 +49,3 @@
         width: 75%;
     }
 }
-/* @media (max-width: 576px) {
-    .navbar{
-        width: 100%;        
-    }
-    .btn__Container{
-        gap: 5px;
-    }
-    .minexus__Logo{
-        width: 75%;
-    }
-} */

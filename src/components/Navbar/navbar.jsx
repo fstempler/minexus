@@ -29,11 +29,11 @@ const navbar = () =>{
                                 Services
                             </Link>
                                 <ul className="dropdown-menu navbar__dropdown">
-                                    <li className='d-flex justify-content-center align-items-center'><Link className="dropdown-item navbar__Btn" to="/codin">CODIN</Link></li>
+                                    <li className='d-flex justify-content-center align-items-center pt-2'><Link className="dropdown-item dropdown__Button" to="/codin">CODIN</Link></li>
                                     <li><hr className="dropdown-divider navbar__line"></hr></li>
-                                    <li className='d-flex justify-content-center align-items-center'><Link className="dropdown-item navbar__Btn" to="/cataloging">Cataloging</Link></li>
+                                    <li className='d-flex justify-content-center align-items-center'><Link className="dropdown-item dropdown__Button" to="/cataloging">Cataloging</Link></li>
                                     <li><hr className="dropdown-divider navbar__line"></hr></li>
-                                    <li className='d-flex justify-content-center align-items-center'><Link className="dropdown-item navbar__Btn" to="/consulting">Consulting</Link></li>
+                                    <li className='d-flex justify-content-center align-items-center pb-2'><Link className="dropdown-item dropdown__Button" to="/consulting">Consulting</Link></li>
                                  </ul>
                         </li>
                         <li className="nav-item">
