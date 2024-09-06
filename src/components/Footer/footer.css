@@ -29,7 +29,21 @@
 .footer__SiteLinks-List{
     margin-top: 22px;
 }
-
+/* Bitrix Form */
+.b24-form-wrapper{
+    background-image: linear-gradient(90deg, #183A5E 0%, #183A5E 100%) !important;
+    color: #fff !important;  
+  }
+.b24-form-header-title, .b24-form-header-description, .b24-form-sign-abuse-link{
+    color: #fff !important;
+}
+.b24-form-field{
+    background-color: #fff;
+    border-radius: 1px;
+}
+.b24-form-btn{
+    background-color: #263A97 !important;
+}
 @media (max-width: 1140px) {
     .startToday__Container{        
         padding: 30px;
@@ -125,4 +139,9 @@
         text-align: center;
     }   
     
+}
+@media screen and (max-width: 576px) {
+    .footer__SiteLinks-Container{        
+        border-style: none;        
+    }
 }
