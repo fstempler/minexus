@@ -5,7 +5,11 @@ import SliderSection from '../components/SliderSection/SliderSection';
 //Images
 import map from '../assets/map.png'
 
+import { useTranslation } from 'react-i18next'
+
 const ContactUs = () => {
+
+    const { t, i18n } = useTranslation();
 
     useEffect(() => {
         if (!document.getElementById('bitrix-script')) {
@@ -25,9 +29,9 @@ const ContactUs = () => {
             <div className='container'>
                 <div className='row contact__DataContainer'>
                     <div className='col-12 col-lg-6 p-3 d-flex flex-column gap-3 justify-content-center'>
-                        <h3 className='contactSectionBadge'>CONTACT SALES</h3>
-                        <h1 className='contactSectionTitle'>Let's talk</h1>
-                        <h3 className='contactSectionSubtitle'>Start a conversation with our sales team and discover customized solutions for your business.</h3>                        
+                        <h3 className='contactSectionBadge'>{t('contactBadge')}</h3>
+                        <h1 className='contactSectionTitle'>{t('contactTitle')}</h1>
+                        <h3 className='contactSectionSubtitle'>{t('contactSubtitle')}</h3>                        
                     </div>
                     <div className='col-12 col-lg-6 d-flex justify-content-center align-items-center'>
                         <div id="bitrix-form-container"></div>
@@ -43,7 +47,7 @@ const ContactUs = () => {
                     <div className='col-12 col-lg-6 d-flex flex-column justify-content-center gap-5'>
                         <div className='address__Container'>
                             <h3 className='address__Title'>
-                                Commercial Contact
+                                {t('contactCommercial')}
                             </h3>
                             <p className='address__Data'>
                             + 54 9264 5869785
@@ -53,17 +57,17 @@ const ContactUs = () => {
                         </div>
                         <div className='address__Container'>
                             <h3 className='address__Title'>
-                                CODIN Support
+                                {t('contactSupport')}
                             </h3>
                             <p className='address__Data'>
                             + 54 911 3892 9134,
                             <br></br>
-                            Soporte@minexus.com.ar
+                                soporte@minexus.com.ar
                             </p>
                         </div>
                         <div className='address__Container'>
                             <h3 className='address__Title'>
-                                Our offices
+                                {t('contactOffices')}
                             </h3>
                             <p className='address__Data'>
                             Libertador General San Martin 1890 Oeste
@@ -86,11 +90,11 @@ const ContactUs = () => {
                 </div>
             </div>
         </div>
-        <SliderSection 
-        Badge={"OUR CLIENTS"}
-        Title={"Already growing with us"}
-        Text={"Minexus catalyzes the success of the most dynamic start-ups and established compaies."}
-        />
+        <SliderSection
+            Badge={t('SliderBadge')}
+            Title={t('SliderTitle')}
+            Text={t('SliderText')}
+            />
         <br></br>
         </>
     )

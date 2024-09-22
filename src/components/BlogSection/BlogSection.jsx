@@ -3,15 +3,22 @@ import './blogSection.css'
 import BlueBtn from '../Buttons/blueBtn'
 //Card
 import Card from './blogCard/BlogCard'
+
+import { useTranslation } from 'react-i18next'
+
+
 const BlogSection = () => {
+
+    const { t, i18n } = useTranslation();
+
     return (
         <div className='container'>
             <div className='row'>
                 <div className='row d-flex justify-content-center blogSection__TextContainer'>
-                    <h3 className='blogSection__Badge'>RESOURCES</h3>
-                    <h2 className='blogSection__Title'>Get informed and shape your strategy</h2>
-                    <p className='blogSection__Text'>Stay up to date with Minexus news that will help you stand out in your market and achieve your goals.</p>
-                    <BlueBtn text={"Read all the stories"} icon={ <i className="bi bi-arrow-right"></i> }/>
+                    <h3 className='blogSection__Badge'>{t('homeResourcesBadge')}</h3>
+                    <h2 className='blogSection__Title'>{t('homeResourcesTitle')}</h2>
+                    <p className='blogSection__Text'>{t('homeResourcesText')}</p>
+                    <BlueBtn text={t('homeResourcesCTA')} icon={ <i className="bi bi-arrow-right"></i> }/>
                 </div>
                     
                 

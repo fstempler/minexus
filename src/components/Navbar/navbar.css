@@ -31,6 +31,23 @@
 .navbar__LgBtn{
     color: #263A97;
     font-weight: 600;
+    cursor: pointer;    
+    border: none;
+    background: none;
+    display: flex;
+    gap: 5px;
+}
+
+.language-option {
+    font-weight: bold;
+}
+
+.language-option.active {
+    color: #263A97; /* Color activo */
+}
+
+.language-option.inactive {
+    color: #263b9754; /* Color no activo */
 }
 
 

@@ -23,15 +23,20 @@ import DataQuality from '../assets/ServiceCardsImg/Codin/DataQuality.png'
 import Prequalification from '../assets/ServiceCardsImg/Codin/Prequalification.png'
 import Contract from '../assets/ServiceCardsImg/Codin/Contract.png'
 
+import { useTranslation } from 'react-i18next'
+
 
 const Codin = () => {
+
+    const { t, i18n } = useTranslation();
+
     return (
         <>
             <Header            
             Badge={"CODIN"}
-            Title={"Connecting Industries Smartly"}
-            Subtitle={"Our platform transforms review times. With artificial intelligence we accelerate processes and minimize errors."}
-            Button={<HeroBtn text={"Discover CODIN"}/>}
+            Title={t('codinHeroTitle')}
+            Subtitle={t('codinHeroText')}
+            Button={<HeroBtn text={t('codinHeroCTA')}/>}
             link={"http://www.google.com"}
             ImgLink={CodinImg}
             alt={"CODIN Image"}
@@ -40,59 +45,59 @@ const Codin = () => {
             <div className='d-flex justify-content-center'>
             <div className='codin__FeaturesContainer d-flex flex-column gap-5'>
                 <FeatureImgL
-                Badge={"INDUSTRIAL CONECTIVITY"}
-                Title={"Linking Suppliers in a Virtual Community"}
-                Subtitle={"CODIN creates a collaborative space for suppliers and industrialists, fostering communication and joint development in an integrated virtual environment."}
+                Badge={t('codinIndustrialBadge')}
+                Title={t('codinIndustrialTitle')}
+                Subtitle={t('codinIndustrialText')}
                 Button={<BlueBtn text={"Discover our products"}/>}
                 link={"http://www.google.com"}
                 ImgLink={VirtualCommunity}
                 alt={"Virtual Community"}
                 />
                 <FeatureImgR
-                Badge={"SUPPLY CHAIN MANAGEMENT"}
-                Title={"Intelligent Supplier Connection"}
-                Subtitle={"We strengthen the connection between customers and suppliers using disruptive technologies such as Blockchain and AI. Our goal is to achieve optimal, automatic and reliable supply chain management."}
-                Button={<BlueBtn text={"See our solutions"}/>}
+                Badge={t('codinSupplyBadge')}
+                Title={t('codinSupplyTitle')}
+                Subtitle={t('codinSupplyText')}
+                Button={<BlueBtn text={t('solutionsCTA')}/>}
                 link={"http://www.google.com"}
                 ImgLink={SupplyChain}
                 alt={"Supply Chain Management"}
                 background="linear-gradient(rgba(60, 103, 255, 0.08), rgba(60, 103, 255, 0))"
                 />
                 <FeatureImgLGreen
-                Badge={"INDUSTRIAL CONNECTIVITY"}
-                Title={"Assured Accuracy"}
-                Subtitle={"Our technology identifies and highlights errors in minutes, allowing suppliers to quickly correct and secure approval of their documentation."}
-                Button={<BlueBtn text={"See our solutions"}/>}
+                Badge={t('codinAccuracyBadge')}
+                Title={t('codinAccuracyTitle')}
+                Subtitle={t('codinAccuracyText')}
+                Button={<BlueBtn text={t('solutionsCTA')}/>}
                 ImgLink={AssuredAccuracy}
                 alt={"Assured Accuracy"}
                 />
                 <ServiceFeatureCenter
-                Badge={"THE CODIN EXPERIENCE"}
-                Title={"Efficient Management"}
-                Subtitle={"Ensure excellence and compliance at every stage with a platform that simplifies management and continuously improves data quality."}
+                Badge={t('codinExperienceBadge')}
+                Title={t('codinExperienceTitle')}
+                Subtitle={t('codinExperienceText')}
                 />
                 <div className='row d-flex justify-content-center align-items-center codin__ServiceCards-Container'>
                     <div className='col d-flex justify-content-center align-items-center'>
                         <ServiceCard
                         img={SupplierMapping}
-                        title={"Supplier Mapping"}
-                        text={"Gain a clear view of your supply chain and optimize supplier selection"}
+                        title={t('codinExperienceCard1Title')}
+                        text={t('codinExperienceCard1Text')}
                         background="rgba(28, 151, 176, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center codin__ServiceCards-MiddleColumn'>
                         <ServiceCard
                         img={PerformanceEvaluation}
-                        title={"Performance Evaluation"}
-                        text={"Gain a clear view of your supply chain and optimize supplier selection"}
+                        title={t('codinExperienceCard2Title')}
+                        text={t('codinExperienceCard2Text')}
                         background="rgba(28, 151, 176, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center'>
                         <ServiceCard
                         img={ContractorsControl}
-                        title={"Contractors Control"}
-                        text={"Gain a clear view of your supply chain and optimize supplier selection"}
+                        title={t('codinExperienceCard3Title')}
+                        text={t('codinExperienceCard3Title')}
                         background="rgba(28, 151, 176, 1)"
                         />
                     </div>
@@ -101,39 +106,39 @@ const Codin = () => {
                     <div className='col d-flex justify-content-center align-items-center'>
                         <ServiceCard
                         img={DataQuality}
-                        title={"Data Quality Management"}
-                        text={"Make informed decisions with accurate, high-quality data."}
+                        title={t('codinExperienceCard4Title')}
+                        text={t('codinExperienceCard4Title')}
                         background="rgba(28, 151, 176, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center codin__ServiceCards-MiddleColumn'>
                         <ServiceCard
                         img={Prequalification}
-                        title={"Prequalification, Restricted Lists and Conflicts of Interest"}
-                        text={"Minimize risk and ensure excellence with a comprehensive prequalification process."}
+                        title={t('codinExperienceCard5Title')}
+                        text={t('codinExperienceCard5Title')}
                         background="rgba(28, 151, 176, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center'>
                         <ServiceCard
                         img={Contract}
-                        title={"Contract Management and Certification"}
-                        text={"Streamline contract administration and ensure certification with standardized processes."}
+                        title={t('codinExperienceCard6Title')}
+                        text={t('codinExperienceCard6Title')}
                         background="rgba(28, 151, 176, 1)"
                         />
                     </div>
                 </div>
-                <SliderSection 
-                Badge={"OUR CLIENTS"}
-                Title={"Already growing with us"}
-                Text={"Minexus catalyzes the success of the most dynamic start-ups and established compaies."}
+                <SliderSection
+                Badge={t('SliderBadge')}
+                Title={t('SliderTitle')}
+                Text={t('SliderText')}
                 />
                 <JoinSection />
             </div>
             </div>
             <FAQSection
             Badge={"CODIN"}
-            Title={"Frequently Asked Questions"}
+            Title={t('faq')}
             />
             
         </>

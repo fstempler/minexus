@@ -19,14 +19,19 @@ import Warehouse from '../assets/ServiceCardsImg/Consulting/Warehouse.png'
 import Audits from '../assets/ServiceCardsImg/Consulting/Audits.png'
 import MRPimg from '../assets/ServiceCardsImg/Consulting/MRP.png'
 
+import { useTranslation } from 'react-i18next'
+
 const ConsultingPage = () => {
+
+    const { t, i18n } = useTranslation();
+
     return (
         <>
             <HeroWithImage
-            Badge={"CONSULTING"}
-            Title={"Boost your Business with Specialized Consulting"}
-            Subtitle={"Our vision is to provide customised solutions that drive operational efficiency, add value and optimise your company's supply chain."}
-            Button={<HeroBtn text={"Take Advantage"} />}
+            Badge={t('consultingModelBadge')}
+            Title={t('consultingModelTitle')}
+            Subtitle={t('consultingModelText')}
+            Button={<HeroBtn text={t('consultingModelCTA')} />}
             link={""}
             ImgLink={Consulting}
             alt={"Consulting Image"}
@@ -35,10 +40,10 @@ const ConsultingPage = () => {
             <div className='d-flex justify-content-center'>
             <div className='consulting__FeaturesContainer d-flex flex-column gap-5'>
                 <FeatureImgL
-                Badge={"CATALOGING WITH US"}
-                Title={"Procurement Outsourcing, domestic and global"}
-                Subtitle={"Integral optimisation of procurement processes to maximise value and efficiency without the need to increase the number of employees in your company. "}
-                Button={<BlueBtn text={"Let's talk"}/>}
+                Badge={t('consultingOutsourcingBadge')}
+                Title={t('consultingOutsourcingTitle')}
+                Subtitle={t('consultingOutsourcingText')}
+                Button={<BlueBtn text={"talkCTA"}/>}
                 link={""}
                 ImgLink={Procurment}
                 alt={"Procurement Outsourcing"}
@@ -46,32 +51,32 @@ const ConsultingPage = () => {
                 />
 
             <ServiceFeatureCenter
-                Badge={"CONSULTING"}
-                Title={"Our specialized services"}
-                Subtitle={"Minexus offers a wide range of consulting services designed to boost the efficiency and operational effectiveness of your company's supply chain:"}
+                Badge={t('consultingServicesBadge')}
+                Title={t('consultingServicesTitle')}
+                Subtitle={t('consultingServicesText')}
             />
                 <div className='row d-flex justify-content-center align-items-center codin__ServiceCards-Container'>
                     <div className='col d-flex align-items-center'>
                         <ServiceCard
                         img={SAPimg}
-                        title={"Supplier Mapping"}
-                        text={"Gain a clear view of your supply chain and optimize supplier selection"}
+                        title={t('consultingServicesCard1Title')}
+                        text={t('consultingServicesCard1Text')}
                         background="rgba(38, 58, 151, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center codin__ServiceCards-MiddleColumn'>
                         <ServiceCard
                         img={Purchase}
-                        title={"Performance Evaluation"}
-                        text={"Gain a clear view of your supply chain and optimize supplier selection"}
+                        title={t('consultingServicesCard2Title')}
+                        text={t('consultingServicesCard2Text')}
                         background="rgba(38, 58, 151, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center'>
                         <ServiceCard
                         img={Sourcing}
-                        title={"Contractors Control"}
-                        text={"Gain a clear view of your supply chain and optimize supplier selection"}
+                        title={t('consultingServicesCard3Title')}
+                        text={t('consultingServicesCard3Text')}
                         background="rgba(38, 58, 151, 1)"
                         />
                     </div>
@@ -80,24 +85,24 @@ const ConsultingPage = () => {
                     <div className='col d-flex justify-content-center align-items-center'>
                         <ServiceCard
                         img={Warehouse}
-                        title={"Data Quality Management"}
-                        text={"Make informed decisions with accurate, high-quality data."}
+                        title={t('consultingServicesCard4Title')}
+                        text={t('consultingServicesCard4Text')}
                         background="rgba(38, 58, 151, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center codin__ServiceCards-MiddleColumn'>
                         <ServiceCard
                         img={Audits}
-                        title={"Prequalification, Restricted Lists and Conflicts of Interest"}
-                        text={"Minimize risk and ensure excellence with a comprehensive prequalification process."}
+                        title={t('consultingServicesCard5Title')}
+                        text={t('consultingServicesCard5Text')}
                         background="rgba(38, 58, 151, 1)"
                         />
                     </div>
                     <div className='col d-flex justify-content-center align-items-center'>
                         <ServiceCard
                         img={MRPimg}
-                        title={"Contract Management and Certification"}
-                        text={"Streamline contract administration and ensure certification with standardized processes."}
+                        title={t('consultingServicesCard6Title')}
+                        text={t('consultingServicesCard6Text')}
                         background="rgba(38, 58, 151, 1)"
                         />
                     </div>

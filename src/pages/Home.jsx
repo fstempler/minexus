@@ -29,62 +29,69 @@ import CaseStudyCard from '../components/CaseStudy/CaseStudyCard/CaseStudyCard'
 import PartnerSection from '../components/PartnersSection/PartnersSection'
 import JoinSection from '../components/JoinSection/JoinSection'
 import BlogSection from '../components/BlogSection/BlogSection'
+import { useTranslation } from 'react-i18next'
 
-const carouselItems = [
-    [
-        <CaseStudyCard
-            key="solition1"
-            badge="SOLUTION"
-            title="Material Cataloging and Debugging Workshop"
-            text="Minexus conducted an intensive workshop with the client to review and improve the cataloging procedure. A new form and unification of cataloging users was proposed. In addition, new cataloging standards, standardization of descriptions, masters of units of measure, manufacturers and standardized abbreviations were delivered."
-        />,
-        <CaseStudyCard
-            key="standarization1"
-            badge="STANDARDIZATION"
-            title="16,500 items"
-            text="Descriptions, units of measure, item groups and classes were standardized and translated into English."
-        />
-    ],
-    [
-        <CaseStudyCard
-            key="stadarization2"
-            badge="STANDARIZATION"
-            title="16,500 items"
-            text="Minexus conducted an intensive workshop with the client to review and improve the cataloging procedure. A new form and unification of cataloging users was proposed. In addition, new cataloging standards, standardization of descriptions, masters of units of measure, manufacturers and standardized abbreviations were delivered."
-        />,
-        <CaseStudyCard
-            key="stadarization3"
-            badge="STANDARIZATION"
-            title="32% items"
-            text="required group or class updating."
-        />           
-    ],
-    [
-        <CaseStudyCard
-            key="dataEnrichment"
-            badge="DATA ENRICHMENT"
-            title="46% materials"
-            text="lacked part number, manufacturer or characteristics, which can be enriched."
-        />,
-        <CaseStudyCard
-            key="executionTime"
-            badge="EXECUTION TIME"
-            title="1 Month"
-            text="of Workshops"
-            title2="4 Months"
-            text2="of debugging."
-        />           
-    ]    
-];
+
+
 
 const Home = () => {
+    
+    const { t, i18n } = useTranslation();
+
+    const carouselItems = [
+        [
+            <CaseStudyCard
+                key="solition1"
+                badge={t('caseStudyAlikenCard1Badge')}
+                title={t('caseStudyAlikenCard1Title')}
+                text={t('caseStudyAlikenCard1Text')}
+            />,
+            <CaseStudyCard
+                key="standarization1"
+                badge={t('caseStudyAlikenCard2Badge')}
+                title={t('caseStudyAlikenCard2Title')}
+                text={t('caseStudyAlikenCard2Text')}
+            />
+        ],
+        [
+            <CaseStudyCard
+                key="stadarization2"
+                badge={t('caseStudyAlikenCard3Badge')}
+                title={t('caseStudyAlikenCard3Title')}
+                text={t('caseStudyAlikenCard3Text')}
+            />,
+            <CaseStudyCard
+                key="stadarization3"
+                badge={t('caseStudyAlikenCard4Badge')}
+                title={t('caseStudyAlikenCard4Title')}
+                text={t('caseStudyAlikenCard4Text')}
+            />           
+        ],
+        [
+            <CaseStudyCard
+                key="dataEnrichment"
+                badge={t('caseStudyAlikenCard4Badge')}
+                title={t('caseStudyAlikenCard4Title')}
+                text={t('caseStudyAlikenCard4Text')}
+            />,
+            <CaseStudyCard
+                key="executionTime"
+                badge={t('caseStudyAlikenCard5Badge')}
+                title={t('caseStudyAlikenCard5Title')}
+                text={t('caseStudyAlikenCard5Text')}
+                title2={t('caseStudyAlikenCard5Title2')}
+                text2={t('caseStudyAlikenCard5Text2')}
+            />           
+        ]    
+    ];
+
     return(
         <>
         <HeroNoImage 
-        Kicker={"INTEGRAL SUPPLY CHAIN SOLUTIONS"}
-        Title={"Your Strategic Ally in Sourcing & Operations"}
-        Subtitle={"Elevate your business with solutions that integrate design, inventory control and expertise in leading systems such as Oracle and SAP."}
-        Button={<HeroBtn text={"Discover our products"} />}
+        Kicker={t('homeKicker')}
+        Title={t('homeTitle')}
+        Subtitle={t('homeSubtitle')}
+        Button={<HeroBtn text={t('productsCTA')} />}
         />
         <div className='container-fluid homeCards__Container row'>
         
@@ -92,11 +99,11 @@ const Home = () => {
                     backgroundImage={CodinBack}
                     categoryLogo={CodinLogo}
                     title={"CODIN"}
-                    subtitle={"Industrial Development Community"}
-                    textData1={"Speed up revisions"}
-                    textData2={"Performance evaluation"}
-                    textData3={"Contractors control"}
-                    button={<CardBtn text={"See our solutions"}/>}
+                    subtitle={t('homeCardCodinSubtitle')}
+                    textData1={t('homeCardCodinline1')}
+                    textData2={t('homeCardCodinline2')}
+                    textData3={t('homeCardCodinline3')}
+                    button={<CardBtn text={t('solutionsCTA')}/>}
                     iconColor={"#1C97B0"}
                     link={"/codin"}
                     />
@@ -105,12 +112,12 @@ const Home = () => {
                     <HeroCard
                     backgroundImage={CataloguingBack}
                     categoryLogo={CataloguingLogo}
-                    title={"Cataloguing"}
-                    subtitle={"Find out how to accurately  and efficiently sort your data. "}
-                    textData1={"Description Standarization"}
-                    textData2={"Data Analysis"}
-                    textData3={"Standarization"}
-                    button={<CardBtn text={"Discover Cataloguing"}/>}
+                    title={t('homeCardCatalogingTitle')}
+                    subtitle={t('homeCardCatalogingSubtitle')}
+                    textData1={t('homeCardCatalogingline1')}
+                    textData2={t('homeCardCatalogingline2')}
+                    textData3={t('homeCardCatalogingline3')}
+                    button={<CardBtn text={t('homeCardCatalogingCTA')}/>}
                     iconColor={"#009D5F"}
                     link={"/cataloging"}
                     />
@@ -119,12 +126,12 @@ const Home = () => {
                     <HeroCard
                     backgroundImage={ConsultingBack}
                     categoryLogo={ConsultingLogo}
-                    title={"Consulting"}
-                    subtitle={"With 10 years experienced experts in each subject."}
-                    textData1={"Procurement outsourcing"}
-                    textData2={"Warehouse Operation"}
-                    textData3={"Inventory Control "}
-                    button={<CardBtn text={"Let's talk"}/>}
+                    title={t('homeCardConsultingTitle')}
+                    subtitle={t('homeCardConsultingSubtitle')}
+                    textData1={t('homeCardConsultingline1')}
+                    textData2={t('homeCardConsultingline2')}
+                    textData3={t('homeCardConsultingline3')}
+                    button={<CardBtn text={t('talkCTA')}/>}
                     iconColor={"#263A97"}
                     link={"/consulting"}
                     />
@@ -135,42 +142,42 @@ const Home = () => {
             <FeatureImgR
             ImgLink={SupplyChain}
             alt={"Supply Chain Management"}
-            Badge={"SUPPLY CHAIN MANAGEMENT"}
-            Title={"Intelligent Supplier Connection"}        
-            Subtitle={"We strengthen the connection between customers and suppliers using disruptive technologies such as Blockchain and AI. Our goal is to achieve optimal, automatic and reliable supply chain management."}
+            Badge={t('homeSupplierBadge')}
+            Title={t('homeSupplierTitle')}
+            Subtitle={t('homeSupplierText')}
             link={"http://www.google.com"}
-            Button={<BlueBtn text={"See our solutions"}/>}
+            Button={<BlueBtn text={t('solutionsCTA')}/>}
             />
             <FeatureImgLGreen
             ImgLink={AdvancedDocumentAutomation}
             alt={"Advanced Document Automation"}
-            Badge={"PROCESS STREAMLINING"}
-            Title={"Advanced Document Automation"}
-            Subtitle={"Using Artificial Intelligence, we speed up document review and significantly reduce errors, ensuring fast and accurate verification of the documentation provided."}
+            Badge={t('homeAutomationBadge')}
+            Title={t('homeAutomationTitle')}
+            Subtitle={t('homeAutomationText')}
             link={"http://www.google.com"}
-            Button={<BlueBtn text={"Discover our products"}/>}
+            Button={<BlueBtn text={t('productsCTA')}/>}
             />
             <FeatureCenter
-            Badge={"ERP INTEGRATION"}
-            Title={"Simplified management of your company"}
-            Subtitle={"Enables seamless data synchronization, optimizing operational and procurement processes."}
+            Badge={t('homeERPBadge')}
+            Title={t('homeERPTitle')}
+            Subtitle={t('homeERPText')}
             link={"http://www.google.com"}
-            Button={<BlueBtn text={"Discover Cataloging"}/>}
+            Button={<BlueBtn text={t('homeERPCTA')}/>}
             ImgLink={ERPIntegration}
             alt={"ERP Integration"}
             ImgLinkMobile={ERPIntegrationMobile}
             />
             <SliderSection
-            Badge={"OUR CLIENTS"}
-            Title={"Already growing with us"}
-            Text={"Minexus catalyzes the success of the most dynamic start-ups and established compaies."}
+            Badge={t('SliderBadge')}
+            Title={t('SliderTitle')}
+            Text={t('SliderText')}
             />
             <CaseStudy
-            badge={"CASE STUDY"}
+            badge={t('caseStudyBadge')}
             imgLogo={AlikemLogo}
             alt={"Allkem Logo"}
-            title={"How Aliken Transformed Data Handling"}
-            text={"Allkem was facing significant challenges in cataloging and purging materials, which affected operational efficiency and data accuracy."}
+            title={t('caseStudyAlikenTitle')}
+            text={t('caseStudyAlikenText')}
             carouselItems={carouselItems}
             id={"1"}
             />
