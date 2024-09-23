@@ -50,12 +50,14 @@ const Resources = () => {
                         <BlogCard
                         badge={"START-UP"}
                         title={"Benefits of belonging to an online industry community"}
+                        link={'/post'}
                         />
                     </div>
                     <div className='col'>
                         <BlogCard
                         badge={"START-UP"}
                         title={"Benefits of belonging to an online industry community"}
+                        link={'/post'}
                         />
                     </div>    
                 </div>
@@ -64,12 +66,14 @@ const Resources = () => {
                         <BlogCard
                         badge={"START-UP"}
                         title={"Benefits of belonging to an online industry community"}
+                        link={'/post'}
                         />
                     </div>
                     <div className='col'>
                         <BlogCard
                         badge={"START-UP"}
                         title={"Benefits of belonging to an online industry community"}
+                        link={'/post'}
                         />
                     </div>    
                 </div>
@@ -78,12 +82,14 @@ const Resources = () => {
                         <BlogCard
                         badge={"START-UP"}
                         title={"Benefits of belonging to an online industry community"}
+                        link={'/post'}
                         />
                     </div>
                     <div className='col'>
                         <BlogCard
                         badge={"START-UP"}
                         title={"Benefits of belonging to an online industry community"}
+                        link={'/post'}
                         />
                     </div>    
                 </div>
