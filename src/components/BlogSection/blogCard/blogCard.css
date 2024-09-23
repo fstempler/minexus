@@ -3,6 +3,7 @@
     border-color: rgba(198, 211, 255, 0.4);
     border-width: 4px;
     border-radius: 12px;
+    padding: 0;
 }
 .blogCard__Badge{
     border-style: solid;
@@ -21,6 +22,7 @@
     font-weight: 700;
     margin-top: 25px;
     margin-bottom: 20px;
+    color: #263A97;    
 }
 .blogCard__Minexus{
     font-size: 14px;

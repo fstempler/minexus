@@ -9,6 +9,9 @@ import Cataloging from './pages/Cataloging';
 import Consulting from './pages/Consulting';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
+import Resources from './pages/Resources';
+import Post from './pages/Post';
+
 // styles
 import './App.css';
 
@@ -31,6 +34,8 @@ const routes = createBrowserRouter(
       <Route path="/consulting" element={<Consulting />} />
       <Route path="/aboutus" element={<AboutUs />} />
       <Route path="/contactUs" element={<ContactUs />} />
+      <Route path="/resources" element={<Resources />} />
+      <Route path="/post" element={<Post />} />
     </Route>
   )  
 );

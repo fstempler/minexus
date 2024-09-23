@@ -48,7 +48,7 @@ const navbar = () =>{
                             <Link className="nav-link navbar__Btn" aria-current="page" to="/aboutus">{t('aboutUs')}</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link navbar__Btn" to="/">{t('resources')}</Link>
+                            <Link className="nav-link navbar__Btn" to="/resources">{t('resources')}</Link>
                         </li>
                         <li className="nav-item">
                         <button className="nav-link navbar__LgBtn" onClick={toggleLanguage}>

@@ -1,0 +1,29 @@
+.resources__MainContainer{ 
+    margin-top: 50px;   
+    width: 1200px;            
+}
+.categories{
+    border: solid 4px #C6D3FF66;
+    border-radius: 12px;
+}
+.categories__Title{
+    font-family: 'Creato Display', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #263A97;    
+}
+.categories__Link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000;
+}
+
+@media (max-width: 1200px) {
+    .resources__MainContainer{         
+        width: 100%;            
+    } 
+}
