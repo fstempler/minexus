@@ -3,8 +3,6 @@
 import './styles/post.css'
 //Images
 import postImg from '../assets/blogPic.png'
-//Components
-import HeroNoImage from '../components/HeroNoImage/heroNoImage'
 
 import { useTranslation } from 'react-i18next'
 

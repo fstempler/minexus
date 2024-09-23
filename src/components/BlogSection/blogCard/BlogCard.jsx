@@ -1,6 +1,9 @@
 import './blogCard.css'
 import blogPic from '../../../assets/blogPic.png'
 
+import { Link } from 'react-router-dom'
+
+
 const BlogCard = ({badge, title, link}) => {
     return (
         <div className="card" style={{width: '20rem'}}>
@@ -14,7 +17,7 @@ const BlogCard = ({badge, title, link}) => {
                         <h5 className='blogCard__Minexus'>MINEXUS</h5>
                     </div>
                     <div className='col-7 d-flex justify-content-end'>
-                        <a href={link} className='blogCard__Link'>LEARN MORE <i className="bi bi-chevron-right"></i></a>    
+                        <Link to={link} className='blogCard__Link'>LEARN MORE <i className="bi bi-chevron-right"></i></Link>    
                     </div>
                     
                 </div>    
