@@ -169,7 +169,7 @@
     "SliderTitle": "Already growing with us",
     "SliderText": "Minexus catalyzes the success of the most dynamic start-ups and established compaies.",
 
-    "caseStudyAlikenTitle": "How Allken Transformed Data Handling",
+    "caseStudyAlikenTitle": "How Allkem Transformed Data Handling",
     "caseStudyAlikenText": "Allkem was facing significant challenges in cataloging and purging materials, which affected operational efficiency and data accuracy.",
     "caseStudyAlikenCard1Badge": "SOLUTION",
     "caseStudyAlikenCard1Title": "Material Cataloging and Debugging Workshop",
@@ -285,7 +285,11 @@
     "FooterRowTerms": "Terms & Conditions",
     "FooterRowPrivacy": "Privacy Policy",
     "FooterRowCV": "Send your CV",
-    "FooterRowCookie": "Cookies Preferences"
+    "FooterRowCookie": "Cookies Preferences",
+
+    "ResourcesBadge": "MINEXUS CENTRAL",
+    "ResourcesTitle": "Resources",
+    "ResourcesText": "Discover Minexus articles for the latest industry trends and news to achieve your strategic market goals."
 
     
 }

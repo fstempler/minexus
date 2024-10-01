@@ -43,7 +43,7 @@ const ConsultingPage = () => {
                 Badge={t('consultingOutsourcingBadge')}
                 Title={t('consultingOutsourcingTitle')}
                 Subtitle={t('consultingOutsourcingText')}
-                Button={<BlueBtn text={"talkCTA"}/>}
+                Button={<BlueBtn text={t('talkCTA')}/>}
                 link={""}
                 ImgLink={Procurment}
                 alt={"Procurement Outsourcing"}

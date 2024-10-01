@@ -48,7 +48,7 @@ const Codin = () => {
                 Badge={t('codinIndustrialBadge')}
                 Title={t('codinIndustrialTitle')}
                 Subtitle={t('codinIndustrialText')}
-                Button={<BlueBtn text={"Discover our products"}/>}
+                Button={<BlueBtn text={t('productsCTA')}/>}
                 link={"http://www.google.com"}
                 ImgLink={VirtualCommunity}
                 alt={"Virtual Community"}

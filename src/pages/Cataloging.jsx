@@ -62,12 +62,6 @@ const Cataloging = () => {
         ],
         [
             <CaseStudyCard
-                key="dataEnrichment"
-                badge={t('caseStudyAlikenCard4Badge')}
-                title={t('caseStudyAlikenCard4Title')}
-                text={t('caseStudyAlikenCard4Text')}
-            />,
-            <CaseStudyCard
                 key="executionTime"
                 badge={t('caseStudyAlikenCard5Badge')}
                 title={t('caseStudyAlikenCard5Title')}

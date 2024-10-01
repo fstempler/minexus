@@ -1,7 +1,7 @@
 {   
     "homeKicker": "SOLUCIONES INTEGRALES PARA LA CADENA DE SUMINISTRO",
     "homeTitle": "Su aliado estratégico en aprovisionamiento y operaciones",
-    "homeSubtitle": "Impulse su negocio con soluciones que integran diseño, control de inventario y experiencia en sistemas líderes como Oracle y SAP.",
+    "homeSubtitle": "Complementamos estratégicamente los vacíos funcionales de los grande ERPs en procesos relacionados a la Cadena de Suministros",
     "homeCTA": "Descubra nuestros productos",
     
     "homeCardCodinSubtitle": "Comunidad de Desarrollo Industrial",
@@ -35,9 +35,9 @@
     "homeERPText": "Permite sincronizar datos sin fisuras, optimizando los procesos operativos y de adquisición.",
     "homeERPCTA": "Descubra la catalogación",
 
-    "homeStrategicBadge": "NUESTROS CLIENTES",
-    "homeStrategicTitle": "Ya crecen con nosotros",
-    "homeStrategicText": "Minexus cataliza el éxito de las start-ups más dinámicas y de las empresas más consolidadas.",
+    "homeStrategicBadge": "PARTNERS ESTRATÉGICOS",
+    "homeStrategicTitle": "Trasladamos la calidad de nuestros socios a todos nuestros servicios.",
+    "homeStrategicText": "Integramos calidad y confianza en cada uno de nuestros servicios, comprometiéndonos con la excelencia para nuestros clientes.",
 
     "homeResourcesBadge": "RECURSOS",
     "homeResourcesTitle": "Infórmese y defina su estrategia",
@@ -96,8 +96,8 @@
     "catalogingServicesCard2Text": "Ofrecemos una herramienta que automatiza la categorización y normalización de las descripciones de materiales/productos, facilitando la gestión y el mantenimiento de los datos.",
     "catalogingServicesCard3Title": "Descripciones de compra Enriquecimiento",
     "catalogingServicesCard3Text": "Enriquecemos las descripciones de compra con datos validados por el cliente, que se integran automáticamente en el ERP siguiendo un proceso definido conjuntamente.",
-    "catalogingServicesCard4Title": "Proceso de ADC para nuevos materiales. Estandarización",
-    "catalogingServicesCard4Text": "Establecemos un proceso de Adiciones, Supresiones y Cambios (ADC) para los nuevos materiales, fomentando la normalización y la actualización continua del catálogo.",    
+    "catalogingServicesCard4Title": "Proceso de ABM para nuevos materiales. Estandarización",
+    "catalogingServicesCard4Text": "Establecemos un proceso de altas, bajas y modificaciones (ABM) para los nuevos materiales, fomentando la normalización y la actualización continua del catálogo.",    
 
     "catalogingProcessBadge": "OPTIMIZACIÓN DE DATOS",
     "catalogingProcessTitle": "Gestione sus datos para tomar las decisiones correctas.",
@@ -106,7 +106,7 @@
     "consultingModelBadge": "CONSULTORÍA",
     "consultingModelTitle": "Impulse su negocio con consultoría especializada",
     "consultingModelText": "Nuestra visión es ofrecer soluciones personalizadas que impulsen la eficiencia operativa, añadan valor y optimicen la cadena de suministro de su empresa.",
-    "consultingModelCTA": "Aprovecha las ventajas",
+    "consultingModelCTA": "Conocé las ventajas",
 
     "consultingOutsourcingBadge": "CATALOGAR CON NOSOTROS",
     "consultingOutsourcingTitle": "Subcontratación de adquisiciones, nacional e internacional",
@@ -148,9 +148,9 @@
     "aboutUsQualityPoliciesTitle": "Políticas de Calidad",
     "aboutUsQualityPoliciesText": "MINEXUS, tenemos como propósito  brindar soluciones integrales en el área de la Cadena de Suministro de todas las industrias. A tal efecto hemos direccionado nuestra estrategia al desarrollo de servicios innovadores, flexibles y confiables. Siendo nuestros  principales objetivos: Satisfacer a los clientes con soluciones y servicios de calidad, adecuados a sus requerimientos, necesidades y complementando las funcionalidades de su Software de Gestión. Brindar soluciones oportunas y accesibles, de alto valor agregado que mitiguen riesgos, disminuyan tiempos y costos en las operaciones de nuestros clientes. -Promover un entorno positivo de desarrollo, participación y formación para nuestros talentos, como así también la  innovación tecnológica de nuestros recursos aplicables Cumplir con los requisitos normativos así como con los requisitos legales vigentes y aplicables. Mejorar el desempeño y la eficacia de nuestro S.G.C. de forma continua, promoviendo la participación de todas las personas que forman MINEXUS para lograr el compromiso de todos en la búsqueda de la excelencia. Esta política es difundida, entendida y aceptada por la Organización y demás partes interesadas; y su adecuación sometida a revisión periódica.",
 
-    "contactBadge": "CONTACTO DE VENTAS",
+    "contactBadge": "CONTACTO",
     "contactTitle": "Hablemos",
-    "contactSubtitle": "Inicie una conversación con nuestro equipo de ventas y descubra soluciones personalizadas para su empresa.",
+    "contactSubtitle": "Inicie una conversación con nuestro equipo y descubra soluciones personalizadas para su empresa.",
     "contactCommercial": "Contact Comercial",
     "contactSupport": "Soporte CODIN",
     "contactOffices": "Nuestras Oficinas",
@@ -160,14 +160,14 @@
     "Consulting": "Consultoría",
     "aboutUs": "Nosotros",
     "resources": "Recursos",
-    "contactSales": "Contactar a Ventas",
+    "contactSales": "Contacto",
     "codinAccess": "Acceso CODIN",
 
     "SliderBadge": "NUESTROS CLIENTES",
     "SliderTitle": "Ya crecen con nosotros",
     "SliderText": "Minexus cataliza el éxito de las start-ups más dinámicas y de las empresas más consolidadas.",
 
-    "caseStudyAlikenTitle": "Cómo Alikem transformó el manejo de datos",
+    "caseStudyAlikenTitle": "Cómo Allkem transformó el manejo de datos",
     "caseStudyAlikenText": "Allkem se enfrentaba a importantes retos a la hora de catalogar y purgar materiales, lo que afectaba a la eficacia operativa y a la precisión de los datos.",
     "caseStudyAlikenCard1Badge": "SOLUCIÓN",
     "caseStudyAlikenCard1Title": "Taller de catalogación y depuración de materiales",
@@ -242,7 +242,7 @@
     
 
 
-    "subscribeCTA": "Susscríbetebe",
+    "subscribeCTA": "Suscríbetebe",
     "solutionsCTA": "Vea nuestras soluciones",
     "discoverlCTA": "Descubra nuestros productos",
     "talkCTA": "Hablemos",
@@ -252,11 +252,11 @@
     "caseStudyBadge": "CASO DE ESTUDIO",
 
     "faq": "Preguntas Frecuentes",
-    "faqQuestion1": "¿Cómo se cobra el servicio?",
-    "faqAnswer1": "Cobramos por persona alojada mensualmente, independientemente del número de veces que entren en el proyecto.",
+    "faqQuestion1": "¿Cómo se cobra el servicio de gestión hotelera?",
+    "faqAnswer1": "Cobramos por recurso alojado mensualmente, independientemente del número de veces que entren en el proyecto.",
     "faqQuestion2": "¿Cuál es el SLA para la revisión de documentos?",
     "faqAnswer2": "El plazo medio de revisión es de 24 horas desde que el proveedor carga el documento hasta que es revisado y su estado final es 'aceptado' o rechazado. En caso de rechazo, se indican los motivos para que el proveedor pueda tomar medidas inmediatas.",
-    "faqQuestion3": "¿Cuál es el horario de asistencia?",
+    "faqQuestion3": "¿Cuál es el horario de soporte al cliente?",
     "faqAnswer3": "El equipo de asistencia está disponible de 8 de la mañana a 8 de la tarde los 365 días del año.",
     "faqQuestion4": "¿Existen múltiples arquetipos de asignación o registro de proveedores que pueda sugerir?",
     "faqAnswer4": "Sí, existen múltiples arquetipos en el mapeo y registro de proveedores según las necesidades de cada cliente.",
@@ -275,7 +275,7 @@
     
     
     "FooterStartTitle": "Empiece hoy",
-    "FooterStartText": "No deje pasar esta oportunidad. Vea cómo podemos mejorar su manera de trabajar",    
+    "FooterStartText": "No deje pasar esta oportunidad de optimizar su cadena de suministro y ahorro de costos",    
     "FooterStartCTA": "Hablemos",
     "FooterColumn1Title": "Regístrese para obtener los últimos recursos en su caja",    
     "FooterColumn2HomeLink": "Inicio",  
@@ -285,7 +285,9 @@
     "FooterRowTerms": "Terminos & Condiciones",
     "FooterRowPrivacy": "Política de privacidad",
     "FooterRowCV": "Envíanos tu CV",
-    "FooterRowCookie": "Preferencias de Cookies"
+    "FooterRowCookie": "Preferencias de Cookies",
 
-
+    "ResourcesBadge": "CENTRAL MINEXUS",
+    "ResourcesTitle": "Recursos",
+    "ResourcesText": "Descubra los artículos de Minexus sobre las últimas tendencias y noticias de la industria para lograr sus objetivos estratégicos de mercado"
 }

@@ -21,9 +21,9 @@ const Resources = () => {
     return(
         <>
         <HeroNoImage 
-        Kicker={"MINEXUS CENTRAL"}
-        Title={"Resources"}
-        Subtitle={"Discover Minexus articles for the latest industry trends and news to achieve your strategic market goals."}        
+        Kicker={t("ResourcesBadge")}
+        Title={t("ResourcesTitle")}
+        Subtitle={t("ResourcesText")}        
         />
         <div className='container-fluid resources__MainContainer'>
             <div className='row'>
@@ -36,9 +36,8 @@ const Resources = () => {
                         <li><p className='categories__Link'>Industrial Development Community</p></li>
                         <li><p className='categories__Link'>Access control</p></li>
                         <li><p className='categories__Link'>Contractor control</p></li>
-                        <li><p className='categories__Link'>Hotel Management</p></li>
-                        <li><p className='categories__Link'>Hotel Management</p></li>
-                        <li><p className='categories__Link'>Hotel Management</p></li>
+                        <li><p className='categories__Link'>Inventories</p></li>
+                        <li><p className='categories__Link'>Outsourcing</p></li>                        
                     </ul>
                     
                 </div>
