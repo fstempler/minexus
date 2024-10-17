@@ -5,9 +5,9 @@
     "homeCTA": "Descubra nuestros productos",
     
     "homeCardCodinSubtitle": "Comunidad de Desarrollo Industrial",
-    "homeCardCodinline1": "Acelera las revisiones",
-    "homeCardCodinline2": "Estandarización de descripciones",
-    "homeCardCodinline3": "Control de Contratistas",
+    "homeCardCodinline1": "Ecosistema Global de Proveedores",
+    "homeCardCodinline2": "Calificaión, análisis de riesgo, evaluación de desempeño",
+    "homeCardCodinline3": "Catálogo de Materiales y Servicios, Sourcing",
     "homeCardCodinCTA": "Vea nuestras soluciones",
     "homeCardCatalogingTitle": "Catalogación",
     "homeCardCatalogingSubtitle": "Descubra cómo clasificar sus datos con precisión y eficacia. ",
@@ -17,9 +17,9 @@
     "homeCardCatalogingCTA": "Descubra Catalogación",
     "homeCardConsultingTitle": "Consultoría",
     "homeCardConsultingSubtitle": "Con expertos con 10 años de experiencia en cada materia.",
-    "homeCardConsultingline1": "Externalización de la contratación",
-    "homeCardConsultingline2": "Operación de almacén",
-    "homeCardConsultingline3": "Control de inventario ",
+    "homeCardConsultingline1": "Gestión Integral de Compras, Contratos, Activaciones.",
+    "homeCardConsultingline2": "Diseño, Planificación y Operación Almacenes",
+    "homeCardConsultingline3": "Gestión Integral de Inventarios, Activos Fijos",
 
     "homeSupplierBadge": "GESTIÓN DE LA CADENA DE SUMINISTRO",
     "homeSupplierTitle": "Conexión inteligente de proveedores",
@@ -36,7 +36,7 @@
     "homeERPCTA": "Descubra la catalogación",
 
     "homeStrategicBadge": "PARTNERS ESTRATÉGICOS",
-    "homeStrategicTitle": "Trasladamos la calidad de nuestros socios a todos nuestros servicios.",
+    "homeStrategicTitle": "Potenciamos e integramos la calidad de nuestros socios para lograr que nuestros servicios sean superlativos.",
     "homeStrategicText": "Integramos calidad y confianza en cada uno de nuestros servicios, comprometiéndonos con la excelencia para nuestros clientes.",
 
     "homeResourcesBadge": "RECURSOS",
@@ -46,7 +46,7 @@
 
     "codinHeroBadge": "CODIN",
     "codinHeroTitle": "Conectando industrias de forma inteligente",
-    "codinHeroText": "Nuestra plataforma transforma los tiempos de revisión. Con inteligencia artificial aceleramos los procesos y minimizamos los errores.",
+    "codinHeroText": "Nuestra plataforma complementa los vacíos funcionales de grandes ERPs, utilizando IA - Inteligencia Artificial para acelerar el encuentro óptimo de compradores con proveedores.",
     "codinHeroCTA": "Descubra CODIN",
 
     "codinIndustrialBadge": "CONECTIVIDAD INDUSTRIAL",
@@ -244,9 +244,9 @@
 
     "subscribeCTA": "Suscríbetebe",
     "solutionsCTA": "Vea nuestras soluciones",
-    "discoverlCTA": "Descubra nuestros productos",
+    "discoverlCTA": "Descubra nuestro portfolio de productos",
     "talkCTA": "Hablemos",
-    "productsCTA": "Descubra nuestros productos",
+    "productsCTA": "Descubra nuestro portfolio de productos",
     
 
     "caseStudyBadge": "CASO DE ESTUDIO",

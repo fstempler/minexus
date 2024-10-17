@@ -18,9 +18,9 @@ const PartnerSection = () => {
                 <h1 className='partnerSection__Title'>{t('homeStrategicTitle')}</h1>
                 <p className='partnerSection__Text'>{t('homeStrategicText')}</p>                
             </div>
-            <div className='col col-lg-8 d-flex justify-content-center align-items-center'>
+            <div className='col col-lg-8 d-flex justify-content-center align-items-center partnerSection__Images-Container'>
                 <img className="partnerSection__Image" src={pdp} alt="PDP Dirección Nacional de Proteccion de Datos Federales" />
-                <img className="partnerSection__Image" src={dunSeal} alt="Dun & Bradstreet Verified" />
+                <img className="partnerSection__Image-Dun" src={dunSeal} alt="Dun & Bradstreet Verified" />
                 <img className="partnerSection__Image" src={aws} alt="AWS" />
                 <img className="partnerSection__Image" src={iram} alt="IRAM" />
             </div>

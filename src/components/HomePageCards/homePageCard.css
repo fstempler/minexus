@@ -1,6 +1,6 @@
 .homePageCard__Container{
     width: 392px;
-    height: 446px;
+    height: 540px;
     filter: drop-shadow(10px 10px 4px #00000011);     
     transition: all 0.3s ease-in-out; 
     margin: 0;
@@ -17,7 +17,7 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-around;    
 }
 .categoryLogo{
     width: 25%;
@@ -31,6 +31,10 @@
     border-radius: 0 0 10px 10px;
     background-color: #fff;
     padding: 10px 30px;
+    height: 500px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;   
 }
 .dataContainer__Title{
     font-size: 42px;
@@ -39,6 +43,14 @@
     color: #fff;  
     margin: 0;  
     padding: 0;
+}
+.dataContainer ul {
+    flex-grow: 1; /* Hace que la lista ocupe el espacio disponible */
+    margin-bottom: 20px; /* Asegura espacio debajo de la lista */
+}
+.pr-4 {
+    margin-top: 10px; /* Empuja el botón hacia el final */
+    text-align: left; /* Opcional: Alinea el botón a la derecha */
 }
 .dataContainer__Subtitle{
     font-size: 18px;

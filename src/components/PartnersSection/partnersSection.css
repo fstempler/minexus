@@ -28,8 +28,13 @@
     color: #000;
     font-weight: 400;
 }
+
 .partnerSection__Image{
     max-height: 40%;
+    margin: 15px;
+}
+.partnerSection__Image-Dun{
+    max-height: 15%;
     margin: 15px;
 }
 
@@ -42,10 +47,21 @@
 }
 
 @media (max-width: 576px) {
+    .partnersSection__MainContainer{
+        width: 100%;
+        padding: 10px;        
+    }
+    .partnerSection__Images-Container{
+        height: 250px;
+    }
     .caseStudy__MainContaidner{
         display: none;
     }
     .partnerSection__Image{        
-        max-height: 90%;        
+        max-height: 100%;
+        width: 50px;        
+    }
+    .partnerSection__Image-Dun{
+        max-height: 30%;        
     }
 }
